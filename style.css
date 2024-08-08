@@ -371,7 +371,7 @@ nav{
 }
 .sectionHeader{
     height: 100%;
-    width: 80%;
+    width: 90%;
     background: linear-gradient(#0004f2, #930666);
     display: flex;
     align-items: center;
@@ -382,7 +382,7 @@ nav{
 }
 .sectionHeader p {
     color: transparent;
-    font-size: 60px;
+    font-size: 30px;
     text-transform: uppercase;
 
 }
@@ -1506,9 +1506,9 @@ nav{
        
     }
 }
-@media only screen and (width < 389px) {
+@media only screen and (min-width: 230px) and (max-width: 400px) {
     
- 
+
     .navLogo{
         display: flex;
         align-items: center;
