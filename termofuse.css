@@ -129,8 +129,45 @@ nav{
     text-transform: uppercase;
     font-weight: 800;
 }
+.headerLogo{
+    background-color: red;
+    padding:0px 10px;
+    height: 500px;
+    width: 80%;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ncb{
+    height: 90%;
+    width: 50%;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ncb p{
+    font-size: 100px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.media{
+    height: 100%;
+    width: 50%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.media p{
+    font-size: 100px;
+    color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
 .navlinkListContainer{
-   
     display: flex;
     z-index: 100;
     align-items: center;
@@ -282,7 +319,8 @@ nav{
     margin-top: 70px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .headerProfileContent{
    
@@ -303,22 +341,22 @@ nav{
 }
 .headerProfileHeadingContainer h2{
   color: transparent;
-  font-size: 60px;
+  font-size: 40px;
   text-transform: uppercase;
   font-weight: 900;
 }
 .headerProfileParagrapghContainer{
-    background: url(images/lasmid.png) no-repeat;
-    background-position: cover;  
-    background-size: cover;
-    -webkit-text-fill-color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .headerProfileParagrapghContainer p{
   
-    color: #fff;
-    font-size: 30px;
+    color: #f2f2f2;
+    font-size: 25px;
     width: 100%;
 
     font-weight: 900;
@@ -353,174 +391,61 @@ nav{
     color: #fff;
 }
 #section{
-    background-color: #f2f2f2;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    background: #dbd9d9;
 }
-.sectionContent{
+.sectionAllConent{
+    padding: 10px;
+    margin-top: 10px;
+    width: 90%;
+    margin: auto;
+}
+.aboutNcbMediaTextContainer{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border: 2px solid #fff;
 }
-.musiciansHeader{
-    background-color: #f2f2f2;
-    padding: 10px 20px;
+.aboutNcbMediaHeaderContainer{
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(#9e04db, #5803b3);
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
+    margin-top: 20px;
 }
-.musiciansHeader p{
-   font-weight: 900;
-    font-size: 30px;
-    color: transparent;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    border-bottom: 1px solid #000;
-}
-.sectionMusiciansContent{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 30px;
-   
-}
-.musiciansContentHeader{
-    background: linear-gradient(#d82d2d, #5803b3);
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
-    padding: 10px 20px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.musiciansContentHeader p{
+.aboutNcbMediaHeaderContainer h6{
     font-size: 25px;
-    text-transform: uppercase;
-    color: transparent;
-    font-weight: 900;
-    letter-spacing: 1px;
-    border-bottom: 1px solid #000;
-    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hr{
+    height: 2px;
+    width: 100%;
+    color: #333;
+    background-color: #333;
+}
+.aboutNcbMediaText{
+    width: 100%;
+    margin-top: 20px;
+}
+.aboutNcbMediaText p{
+    font-size: 22px;
+    font-weight: 10;
+    width: 100%;
+    font-family: serif;
 }
 
-.musiciansCardContainer{
-    width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    background: #1b0830;
-    gap: 10px;
-    padding-bottom: 20px;
-    padding: 20px;
+.aboutNcbMediaText span{
+    color: red;
+    border-bottom: 1px solid #999;
+    text-align: left;
+    font-family: "poppins";
+    font-weight: 800;
 }
-.musiciansCard{
-    margin-top: 10px;
-    width: 250px;
-    height: 380px;
-    border: 2px solid rgba(210, 204, 204, 0.3);
-    background: linear-gradient(rgba(171, 167, 167, 0.3),rgba(163, 155, 155, 0.3));
+.aboutNcbMediaContainer{
     display: flex;
     align-items: center;
-    border-radius: 10px;
     justify-content: center;
-    border: none;
-    padding-bottom: 10px;
     flex-direction: column;
 }
-.musiciansCardImage{
-    height: 130px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 130px;
-    border: 2px solid #fff;
-    overflow: hidden;
-    border-radius: 50%;
-}
-.musiciansCardImage:hover img{
-    transform: scale(1.2);
-}
-.musiciansCardImage img{
-    height: 90%;
-    width: 90%;
-    transition: all 0.2s ease;
-    border: 2px solid #fff;
-    border-radius: 50%;
-}
-.musiciansName{
-    width: 90%;
-    display: flex;
-   
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-    padding: 10px;
-}
-.musiciansName p{
-    font-size: 20px;
-    text-transform: capitalize;
-    font-weight: 800;
-    color: #f2f2f2;
-    border-bottom: 2px solid #fff;
-}
-.musiciansDescription{
-    width: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-    transition: all 0.2s ease;
-    overflow: hidden;
-    padding: 10px;
-}
 
-.musiciansDescription p{
-    font-size: 14px;
-    text-transform: capitalize;
-    font-weight: 500;
-    font-family: serif;
-    color: #999;
-    letter-spacing: 1px;
-}
-.musiciansButton{
-    width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    margin-top: 10px;
-    overflow: hidden;
-}
-
-.musiciansButton button{
-    outline: none;
-    user-select: none;
-    border: none;
-    padding: 10px 25px;
-    transition: all 0.6s ease;
-    color: #fff;
-    border-radius: 5px;
-    border: 2px solid rgba(210, 204, 204, 0.3);
-    background: linear-gradient(rgba(171, 167, 167, 0.3),rgba(163, 155, 155, 0.3));
-}
-.musiciansButton:hover button{
-    transform: scale(1.2);
-}
-.musiciansButton button a{
-    color: #fff;
-    text-decoration: none;
-    font-weight: 700;
-    text-transform: capitalize;
-}
 #footer{
     background-color: #0e051d;
     width: 100%;
@@ -739,19 +664,6 @@ flex-direction: column;}
     color: #fff;
 }
 
-
-.lastFooterContent{
-    background-color: #09002a;
-    height: 10dvh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.lastFooterContent p{
-    color: #999;
-    font-weight: 700;
-    
-}
 @media only screen and (width < 990px)  {
    
     .navLogo{
@@ -763,6 +675,44 @@ flex-direction: column;}
         padding: 0px 10px;
         order: 3;
     }
+    .headerLogo{
+        background-color: red;
+        padding:0px 10px;
+        height: 400px;
+        width: 80%;
+        margin-bottom: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .ncb{
+        height: 90%;
+        width: 50%;
+        background-color: #f2f2f2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+   .ncb p{
+    font-size: 50px;
+   }
+    .media{
+        height: 100%;
+        width: 50%;
+        background-color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+   .media p{
+    font-size: 50px;
+    color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
     .navlinkListContainer{
         background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 1, 1, 0.63)), url(images/background.jpg) no-repeat;
         background-position: center;
@@ -836,7 +786,8 @@ flex-direction: column;}
          pointer-events: none;
          opacity: 0;
      }
-
+     
+    
      #footer{
         background-color: #0e051d;
         width: 100%;
@@ -1054,9 +1005,6 @@ flex-direction: column;}
         color: #fff;
     }
     
-    
-     
-    
     .lastFooterContent{
         background-color: #09002a;
         height: 10dvh;
@@ -1087,6 +1035,22 @@ flex-direction: column;}
         padding: 0px 20px;
         order: 3;
     }
+    .headerLogo{
+        background-color: red;
+        padding:0px 10px;
+        height: 300px;
+        width: 80%;
+        margin-bottom: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+   .ncb p{
+    font-size: 30px;
+   }
+   .media p{
+    font-size: 30px;
+   }
     .ncbTetContainer{
         display: flex;
         align-items: center;
@@ -1156,6 +1120,7 @@ flex-direction: column;}
      .newsLetterIcons i{
         background-color: red;
     }
+    
     #footer{
         background-color: #0e051d;
         width: 100%;
@@ -1374,7 +1339,7 @@ flex-direction: column;}
         font-weight: 200;
         color: #fff;
     }
-   
+    
     .lastFooterContent{
         background-color: #09002a;
         height: 10dvh;
@@ -1409,6 +1374,22 @@ flex-direction: column;}
         background-color: red;
         height: 100%;
         padding: 0px 10px;;
+    }
+    .headerLogo{
+        background-color: red;
+        padding:0px 10px;
+        height: 250px;
+        width: 80%;
+        margin-bottom: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .ncb p{
+        font-size: 25px;
+    }
+    .media p{
+        font-size: 25px;
     }
     .ncbTetContainer{
         display: flex;
@@ -1453,70 +1434,6 @@ flex-direction: column;}
         transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
        
     }
-    #footer{
-        background-color: #120424;
-        width: 100%;
-        min-height: 80dvh;
-        height: 100%;
-        margin-top: 100px;
-        display: flex;
-        justify-content: center;
-    }
-    .formHeader{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 10px;
-        width: 90%;
-    }
-    .formHeader p{
-        text-transform: capitalize;
-        font-weight: 500;
-        font-size: 14px;
-    }
-    .formInput{
-        width: 90%;
-        height: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-left: 30px;
-        border-radius: 6px;
-    }
-    .formInput input{
-        height: 100%;
-        width: 100%;
-        border-radius: 6px;
-        outline: none;
-        margin-left: -50px;
-        text-align: center;
-        border: none;
-    }
-    .formFollowIcons{
-        display: flex;
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        margin-top: 10px;
-    }
-    .followNcb{
-        width: 100%;
-        margin-top: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 10px;
-    }
-    .followNcb h6{
-        text-transform: capitalize;
-        font-weight: 500;
-        width: 100%;
-        font-size: 16px;
-        color: #fff;
-        text-align: center;
-        border-bottom: none;
-    }
     .footerSocialMedia{
         margin-top: 20px;
         width: 100%;
@@ -1555,7 +1472,7 @@ flex-direction: column;}
         font-weight: 200;
         color: #fff;
     }
- 
+    
 }
 @media only screen and (min-width: 230px) and (max-width: 400px) {
     
@@ -1808,7 +1725,8 @@ flex-direction: column;}
         font-weight: 200;
         color: #fff;
     }
-  .lastFooterContent{
+    
+    .lastFooterContent{
         background-color: #09002a;
         height: 10dvh;
         display: flex;

@@ -355,6 +355,7 @@ nav{
 #section{
     background-color: #f2f2f2;
     margin-top: 30px;
+    margin-bottom: 20px;
 }
 .sectionContentContainer{
     display: flex;
@@ -523,195 +524,222 @@ nav{
 .sectionButton button a:hover{
     color: #fff;
 }
-
 #footer{
-    background-color: #120424;
+    background-color: #0e051d;
     width: 100%;
-    min-height: 80dvh;
-    height: 100%;
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
 }
-.footerContent{
+.footerContentContainer{
     width: 100%;
-    height: 100%;
 }
-.footerStayTune{
+.footerDontMissContainer{
+    height: 100px;
+    width: 100%;
     background-color: red;
-    padding: 0px 30px;
-    height: 20dvh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
-.dontMiss{
-    margin-bottom: 0px;
-   
-
 }
 .dontMiss p{
     color: #fff;
     text-transform: uppercase;
-    font-weight: 800;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
+    list-style-position: 1px;
 }
-
 .stayTune p{
     color: #000;
     text-transform: uppercase;
-    font-weight: 800;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
+    list-style-position: 1px;
 }
-.footerList{
+.footerListWrapper{
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+    
 }
-.footerListContent{
-  
-    height: 50dvh;
+.footerFoursSectionContainer{
+    border-right: 2px solid #f2f2f2;
     width: 25%;
 }
-.logoBox{
-    display: flex;
-    margin-top: 30px;
-    justify-content: center;
+.fourSectionContentContainer{
     width: 100%;
 }
-.logoContainer{
-    background-color: red;
-    height: 80px;
-    width: 220px;
+.footerSectionContent{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.logoContainer label{
-    background-color: #fff;
-    height: 80%;
-    padding: 10px;
-    font-size: 30px;
-    text-transform: uppercase;
-    font-weight: 900;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.logoContainer strong{
-    background-color: #000;
-    height: 100%;
-    font-family: serif;
-    color: #fff;
-    padding: 0px 10px;
-    font-size: 30px;
-    text-transform: uppercase;
-    font-weight: 900;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.logoBoxText{
-    margin-top: 10px;
-    width: 100%;
-   
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-.logoBoxText p{
-    color: #fff;
-    padding: 10px;
-}
-.logoBoxLinks{
+flex-direction: column;}
 
+.footerLogoContainer{
+    padding: 10px;
+}
+.footerLogoContent{
+    background-color: red;
+    height: 100px;
+    width: 250px;
+    margin: auto;
     display: flex;
+    align-items: center;
     justify-content: center;
-    flex-direction: column;
 }
-.logoBoxLinks a{
-    padding-left: 10px;
-    font-size: 18px;
-    font-weight: 500;
+.footerNcb{
+    height: 90%;
+    width: 50%;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerNcb p {
+    color: #000;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+.footerMedia{
+    height: 100%;
+    width: 50%;
+    margin-left: -10px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerMedia p {
+    color: #f2f2f2;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+.footerdescrptioText{
+    margin-top: 10px;
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.footerdescrptioText p{
     color: #999;
+    font-weight: 700;
+
 }
-.logoBox h5{
-    font-size: 18px;
-    text-transform: capitalize;
+.footerEmail{
+    margin-top: 20px;
+    width: 90%;
+    padding: 10px;
+}
+.footerEmail p{
     color: #fff;
- text-align: left;
-}
-.logoBoxText li{
-    margin: 10px 80px;
-    width: 100%;
-    display: flex;
-}
-.logoBoxText li a{
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
+    letter-spacing: 1px;
+}
+.footerSectionHeader{
+    border-bottom: 2px solid #999;
+}
+.footerSectionHeader h5{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-family: "poppins";
+    color: #fff;
+}
+.footerUlContainer{
+    margin-top: 10px;
+    padding: 10px;
+}
+.footerUlContentList{
+    width: 100%;
+}
+.footerUlContentList li{
+    list-style: none;
+    padding:10px 0px;
+}
+.footerUlContentList li a{
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 350;
     color: #999;
-    text-transform: capitalize;
 }
-.formHeader{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.footerFormContainer{
+    margin-top: 10px;
+    padding: 10px;
 }
-.formHeader p{
-    text-transform: capitalize;
-    font-weight: 500;
-    font-size: 16px;
-}
-.formInput{
-    width: 80%;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 50px;
-    border-radius: 6px;
-}
-.formInput input{
+#form{
     height: 100%;
     width: 100%;
-    border-radius: 6px;
+}
+.joinNesLetters{
+    width: 100%;
+  
+}
+.joinNesLetters p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    border-bottom: 2px solid #000;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+
+}
+.joinInputForm{
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.joinInputForm input{
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
     outline: none;
     border: none;
 }
-.formFollowIcons{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.followNcb{
-    width: 100%;
+.footerSocialMedia{
     margin-top: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
     padding: 10px;
 }
-.followNcb h6{
+.socialMediaText{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.socialMediaText p{
+    font-size: 20px;
+    font-weight: 650;
+    border-bottom: 1px solid #fff;
+    font-family: "poppins";
     text-transform: capitalize;
-    font-weight: 500;
-    font-size: 16px;
     color: #fff;
-    border-bottom: 1px solid #999;
+    font-size: 16px;
 }
 .iconsContainer{
     display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-top: 10px;
+    padding: 10px;
+    justify-content: center;
+    margin-top: 20px;
 }
 .icon{
-    padding: 10px 20px;
-    border-radius: 6px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .icon a i{
-    font-size: 20px;
-    color: #999;
+    font-size: 40px;
+    font-weight: 200;
+    color: #fff;
 }
 .lastFooterContent{
     background-color: #09002a;
@@ -811,215 +839,223 @@ nav{
      }
      
     
-    #footer{
-        background-color: #120424;
+     #footer{
+        background-color: #0e051d;
         width: 100%;
-        min-height: 80dvh;
-        height: 100%;
-        margin-top: 100px;
-        display: flex;
-        justify-content: center;
     }
-    .footerContent{
+    .footerContentContainer{
         width: 100%;
-        height: 100%;
     }
-    .footerStayTune{
+    .footerDontMissContainer{
+        height: 100px;
+        width: 100%;
         background-color: red;
-        padding: 0px 30px;
-        height: 20dvh;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-    }
-    .dontMiss{
-        margin-bottom: 0px;
-       
-    
     }
     .dontMiss p{
         color: #fff;
         text-transform: uppercase;
-        font-weight: 800;
-        font-size: 30px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 25px;
+        list-style-position: 1px;
     }
-    
     .stayTune p{
         color: #000;
         text-transform: uppercase;
-        font-weight: 800;
-        font-size: 30px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 25px;
     }
-    .footerList{
+    .footerListWrapper{
         display: flex;
-        align-items: center;
         justify-content: space-between;
         flex-wrap: wrap;
+        
     }
-    .footerListContent{
-        height: 50dvh;
-        width: 49%;
+    .footerFoursSectionContainer{
+        border-right: 2px solid #f2f2f2;
+        width: 50%;
+    }
+    .fourSectionContentContainer{
+        width: 100%;
+    }
+    .footerSectionContent{
         display: flex;
         align-items: center;
         justify-content: center;
-        flex-direction: column;
-    }
-    .logoBox{
-        width: 100%;
-        display: flex;
-        margin-top: 30px;
-        justify-content: center;
-
-    }
-    .logoContainer{
-        background-color: red;
-        height: 80px;
-        width: 220px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .logoContainer label{
-        background-color: #fff;
-        height: 80%;
-        padding: 10px;
-        font-size: 30px;
-        text-transform: uppercase;
-        font-weight: 900;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .logoContainer strong{
-        background-color: #000;
-        height: 100%;
-        font-family: serif;
-        color: #fff;
-        padding: 0px 10px;
-        font-size: 30px;
-        text-transform: uppercase;
-        font-weight: 900;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .logoBoxText{
-        margin-top: 10px;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
-    .logoBoxText p{
-        width: 100%;
-        color: #fff;
-        padding: 10px;
-    }
-    .logoBoxLinks{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-
-    }
-    .logoBoxLinks a{
-        padding-left: 10px;
-        width: 100%;
-        font-size: 18px;
-        font-weight: 500;
-        color: #999;
-    }
-    .logoBox h5{
-        font-size: 18px;
-        text-transform: capitalize;
-        color: #fff;
-        width: 100%;
-        border-bottom: none;
-        display: flex;
+    flex-direction: column;}
     
-        align-items: baseline;
-
+    .footerLogoContainer{
+        padding: 10px;
     }
-    .logoBoxText li{
-        margin: 10px;
-        width: 100%;
-        display: flex;
-    }
-    .logoBoxText li a{
-        font-weight: 400;
-        color: #999;
-        text-transform: capitalize;
-    }
-    .formHeader{
+    .footerLogoContent{
+        background-color: red;
+        height: 100px;
+        width: 230px;
+        margin: auto;
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-bottom: 10px;
     }
-    .formHeader p{
-        text-transform: capitalize;
-        font-weight: 500;
-        font-size: 16px;
-    }
-    .formInput{
-        width: 100%;
-        height: 40px;
+    .footerNcb{
+        height: 90%;
+        width: 50%;
+        background-color: #f2f2f2;
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-left: 0px;
-        border-radius: 6px;
     }
-    .formInput input{
+    .footerNcb p {
+        color: #000;
+        font-size: 25px;
+        font-weight: 900;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+    }
+    .footerMedia{
         height: 100%;
-        width: 80%;
-        border-radius: 6px;
+        width: 50%;
+        margin-left: -10px;
+        background-color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footerMedia p {
+        color: #f2f2f2;
+        font-size: 25px;
+        font-weight: 900;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+    }
+    .footerdescrptioText{
+        margin-top: 10px;
+        width: 90%;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    .footerdescrptioText p{
+        color: #999;
+        font-weight: 700;
+    
+    }
+    .footerEmail{
+        margin-top: 20px;
+        width: 90%;
+        padding: 10px;
+    }
+    .footerEmail p{
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+    .footerSectionHeader{
+        border-bottom: 2px solid #999;
+    }
+    .footerSectionHeader h5{
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-top: 10px;
+        font-family: "poppins";
+        color: #fff;
+    }
+    .footerUlContainer{
+        margin-top: 10px;
+        padding: 10px;
+    }
+    .footerUlContentList{
+        width: 100%;
+    }
+    .footerUlContentList li{
+        list-style: none;
+        padding:10px 0px;
+    }
+    .footerUlContentList li a{
+        text-decoration: none;
+        font-size: 18px;
+        text-transform: capitalize;
+        font-weight: 350;
+        color: #999;
+    }
+    .footerFormContainer{
+        margin-top: 10px;
+        padding: 10px;
+    }
+    #form{
+        height: 100%;
+        width: 100%;
+    }
+    .joinNesLetters{
+        width: 100%;
+      
+    }
+    .joinNesLetters p{
+        font-size: 18px;
+        font-weight: 400;
+        color: #fff;
+        border-bottom: 2px solid #000;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: capitalize;
+    
+    }
+    .joinInputForm{
+        width: 100%;
+        height: 30px;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    .joinInputForm input{
+        border-radius: 5px;
+        width: 100%;
+        height: 100%;
         outline: none;
-        margin-left: -50px;
-        text-align: center;
         border: none;
     }
-    .formFollowIcons{
-        display: flex;
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        margin-top: 10px;
-    }
-    .followNcb{
-        width: 100%;
+    .footerSocialMedia{
         margin-top: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        width: 100%;
         padding: 10px;
     }
-    .followNcb h6{
-        text-transform: capitalize;
-        font-weight: 500;
+    .socialMediaText{
         width: 100%;
-        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .socialMediaText p{
+        font-size: 20px;
+        font-weight: 650;
+        border-bottom: 1px solid #fff;
+        font-family: "poppins";
+        text-transform: capitalize;
         color: #fff;
-        border-bottom: none;
+        font-size: 16px;
     }
     .iconsContainer{
         display: flex;
-        align-items: center;
-        margin-top: 10px;
-        width: 100%;
+        padding: 10px;
+        justify-content: center;
+        margin-top: 20px;
     }
     .icon{
-      
-        border-radius: 6px;
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .icon a i{
-        font-size: 20px;
-        color: #999;
+        font-size: 40px;
+        font-weight: 200;
+        color: #fff;
     }
-    .lastFooterContent{
+     .lastFooterContent{
         background-color: #09002a;
         height: 10dvh;
         display: flex;
@@ -1120,224 +1156,222 @@ nav{
     }
     
     #footer{
-        background-color: #120424;
+        background-color: #0e051d;
         width: 100%;
-        min-height: 80dvh;
-        height: 100%;
-        margin-top: 100px;
-        display: flex;
-        justify-content: center;
     }
-    .footerContent{
+    .footerContentContainer{
         width: 100%;
-        height: 100%;
     }
-    .footerStayTune{
+    .footerDontMissContainer{
+        height: 100px;
+        width: 100%;
         background-color: red;
-        padding: 0px 30px;
-        height: 20dvh;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-    }
-    .dontMiss{
-        margin-bottom: 0px;
-       
-    
     }
     .dontMiss p{
         color: #fff;
         text-transform: uppercase;
-        font-weight: 800;
-        font-size: 30px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 25px;
+        list-style-position: 1px;
     }
-    
     .stayTune p{
         color: #000;
         text-transform: uppercase;
-        font-weight: 800;
-        font-size: 30px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 25px;
     }
     .footerListWrapper{
         display: flex;
+        justify-content: space-between;
         align-items: center;
-        justify-content: center;
-        width: 100%;
-    }
-    .footerList{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        margin-left: 0px;
         flex-wrap: wrap;
+        
     }
-    .footerListContent{
-        height: 50dvh;
+    .footerFoursSectionContainer{
+        border-right: none;
         width: 100%;
+    }
+    .fourSectionContentContainer{
+        width: 100%;
+    }
+    .footerSectionContent{
         display: flex;
         align-items: center;
         justify-content: center;
-        flex-direction: column;
+    flex-direction: column;
+}
+    
+    .footerLogoContainer{
+        padding: 10px;
     }
-    .logoBox{
-        width: 100%;
-        display: flex;
-        margin-top: 30px;
-        justify-content: center;
-
-    }
-    .logoContainer{
+    .footerLogoContent{
         background-color: red;
-        height: 80px;
-        width: 220px;
+        height: 100px;
+        width: 230px;
+        margin: auto;
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    .logoContainer label{
-        background-color: #fff;
-        height: 80%;
-        padding: 10px;
-        font-size: 30px;
-        text-transform: uppercase;
-        font-weight: 900;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .logoContainer strong{
-        background-color: #000;
-        height: 100%;
-        font-family: serif;
-        color: #fff;
-        padding: 0px 10px;
-        font-size: 30px;
-        text-transform: uppercase;
-        font-weight: 900;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .logoBoxText{
-        margin-top: 10px;
+    .footerNcb{
+        height: 90%;
         width: 50%;
+        background-color: #f2f2f2;
         display: flex;
+        align-items: center;
         justify-content: center;
-        flex-direction: column;
     }
-    .logoBoxText p{
-        width: 100%;
-        color: #fff;
+    .footerNcb p {
+        color: #000;
+        font-size: 25px;
+        font-weight: 900;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+    }
+    .footerMedia{
+        height: 100%;
+        width: 50%;
+        margin-left: -10px;
+        background-color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footerMedia p {
+        color: #f2f2f2;
+        font-size: 25px;
+        font-weight: 900;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+    }
+    .footerdescrptioText{
+        margin-top: 10px;
+        width: 90%;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    .footerdescrptioText p{
+        color: #999;
+        font-weight: 700;
+    
+    }
+    .footerEmail{
+        margin-top: 20px;
+        width: 90%;
         padding: 10px;
     }
-    .logoBoxLinks{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-
-    }
-    .logoBoxLinks a{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding-left: 10px;
-        font-size: 18px;
-        font-weight: 500;
-        color: #999;
-    }
-    .logoBox h5{
-        font-size: 18px;
-        text-transform: capitalize;
+    .footerEmail p{
         color: #fff;
-        width: 100%;
-        border-bottom: none;
-        display: flex;
-    justify-content: center;
-        align-items: center;
-
-    }
-    .logoBoxText li{
-        margin: 10px;
-        margin-left: 30px;
-        width: 100%;
-        display: flex;
-    }
-    .logoBoxText li a{
+        font-family: Arial, Helvetica, sans-serif;
         font-weight: 400;
-        color: #999;
-        text-transform: capitalize;
+        letter-spacing: 1px;
     }
-    .formHeader{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 10px;
+    .footerSectionHeader{
+        border-bottom: 2px solid #999;
     }
-    .formHeader p{
-        text-transform: capitalize;
-        font-weight: 500;
-        font-size: 16px;
+    .footerSectionHeader h5{
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-top: 10px;
+        font-family: "poppins";
+        color: #fff;
     }
-    .formInput{
+    .footerUlContainer{
+        margin-top: 10px;
+        padding: 10px;
+    }
+    .footerUlContentList{
         width: 100%;
-        height: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-left: 30px;
-        border-radius: 6px;
     }
-    .formInput input{
+    .footerUlContentList li{
+        list-style: none;
+        padding:10px 0px;
+    }
+    .footerUlContentList li a{
+        text-decoration: none;
+        font-size: 18px;
+        text-transform: capitalize;
+        font-weight: 350;
+        color: #999;
+    }
+    .footerFormContainer{
+        margin-top: 10px;
+        padding: 10px;
+    }
+    #form{
         height: 100%;
         width: 100%;
-        border-radius: 6px;
+    }
+    .joinNesLetters{
+        width: 100%;
+      
+    }
+    .joinNesLetters p{
+        font-size: 18px;
+        font-weight: 400;
+        color: #fff;
+        border-bottom: 2px solid #000;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: capitalize;
+    
+    }
+    .joinInputForm{
+        width: 100%;
+        height: 30px;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    .joinInputForm input{
+        border-radius: 5px;
+        width: 100%;
+        height: 100%;
         outline: none;
-        margin-left: -50px;
-        text-align: center;
         border: none;
     }
-    .formFollowIcons{
-        display: flex;
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        margin-top: 10px;
-    }
-    .followNcb{
-        width: 100%;
+    .footerSocialMedia{
         margin-top: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        width: 100%;
         padding: 10px;
     }
-    .followNcb h6{
-        text-transform: capitalize;
-        font-weight: 500;
+    .socialMediaText{
         width: 100%;
-        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .socialMediaText p{
+        font-size: 20px;
+        font-weight: 650;
+        border-bottom: 1px solid #fff;
+        font-family: "poppins";
+        text-transform: capitalize;
         color: #fff;
-        text-align: center;
-        border-bottom: none;
+        font-size: 16px;
     }
     .iconsContainer{
         display: flex;
+        padding: 10px;
         justify-content: center;
-        align-items: center;
-        margin-top: 10px;
-        width: 100%;
+        margin-top: 20px;
     }
     .icon{
-      
-        border-radius: 6px;
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .icon a i{
-        font-size: 20px;
-        color: #999;
+        font-size: 40px;
+        font-weight: 200;
+        color: #fff;
     }
     .lastFooterContent{
         background-color: #09002a;
@@ -1576,148 +1610,6 @@ nav{
         display: flex;
         justify-content: center;
     }
-    .footerContent{
-        width: 100%;
-        height: 100%;
-    }
-    .footerStayTune{
-        background-color: red;
-        padding: 0px 30px;
-        height: 20dvh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-    .dontMiss{
-        margin-bottom: 0px;
-       
-    
-    }
-    .dontMiss p{
-        color: #fff;
-        text-transform: uppercase;
-        font-weight: 800;
-        font-size: 20px;
-    }
-    
-    .stayTune p{
-        color: #000;
-        text-transform: uppercase;
-        font-weight: 800;
-        font-size: 20px;
-    }
-    .footerListWrapper{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-    }
-    .footerList{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        margin-left: 0px;
-        flex-wrap: wrap;
-    }
-    .footerListContent{
-        height: 50dvh;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-    .logoBox{
-        width: 100%;
-        display: flex;
-        margin-top: 30px;
-        justify-content: center;
-
-    }
-    .logoContainer{
-        background-color: red;
-        height: 80px;
-        width: 220px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .logoContainer label{
-        background-color: #fff;
-        height: 80%;
-        padding: 10px;
-        font-size: 30px;
-        text-transform: uppercase;
-        font-weight: 900;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .logoContainer strong{
-        background-color: #000;
-        height: 100%;
-        font-family: serif;
-        color: #fff;
-        padding: 0px 10px;
-        font-size: 30px;
-        text-transform: uppercase;
-        font-weight: 900;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .logoBoxText{
-        margin-top: 10px;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
-    .logoBoxText p{
-        width: 100%;
-        color: #fff;
-        padding: 10px;
-    }
-    .logoBoxLinks{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-
-    }
-    .logoBoxLinks a{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding-left: 10px;
-        font-size: 18px;
-        font-weight: 500;
-        color: #999;
-    }
-    .logoBox h5{
-        font-size: 18px;
-        text-transform: capitalize;
-        color: #fff;
-        width: 100%;
-        border-bottom: none;
-        display: flex;
-    justify-content: center;
-        align-items: center;
-
-    }
-    .logoBoxText li{
-        margin: 10px;
-        margin-left: 30px;
-        width: 100%;
-        display: flex;
-    }
-    .logoBoxText li a{
-        font-weight: 400;
-        color: #999;
-        text-transform: capitalize;
-    }
     .formHeader{
         display: flex;
         align-items: center;
@@ -1773,21 +1665,45 @@ nav{
         text-align: center;
         border-bottom: none;
     }
+    .footerSocialMedia{
+        margin-top: 20px;
+        width: 100%;
+        padding: 10px;
+    }
+    .socialMediaText{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .socialMediaText p{
+        font-size: 20px;
+        font-weight: 650;
+        border-bottom: 1px solid #fff;
+        font-family: "poppins";
+        text-transform: capitalize;
+        color: #fff;
+        font-size: 16px;
+    }
     .iconsContainer{
         display: flex;
+        padding: 10px;
         justify-content: center;
-        align-items: center;
-        margin-top: 10px;
-        width: 100%;
+        margin-top: 20px;
     }
     .icon{
-      
-        border-radius: 6px;
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .icon a i{
-        font-size: 20px;
-        color: #999;
+        font-size: 40px;
+        font-weight: 200;
+        color: #fff;
     }
+    
     .lastFooterContent{
         background-color: #09002a;
         height: 10dvh;
