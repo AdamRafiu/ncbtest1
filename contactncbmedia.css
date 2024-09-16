@@ -1836,6 +1836,22 @@ nav {
   .toggle .nabMenuButton3 {
     transform: rotate(-45deg) translate(5px, -12px);
   }
+  .headerLogo {
+    background-color: red;
+    padding: 0px 10px;
+    height: 300px;
+    width: 80%;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .ncb p {
+    font-size: 30px;
+  }
+  .media p {
+    font-size: 30px;
+  }
 
   .ncbTetContainer {
     display: flex;
