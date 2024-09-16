@@ -1043,7 +1043,7 @@ flex-direction: column;}
     .headerLogo{
         background-color: red;
         padding:0px 10px;
-        height: 300px;
+        height: 200px;
         width: 80%;
         margin-bottom: 50px;
         display: flex;
@@ -1384,12 +1384,15 @@ flex-direction: column;}
     .headerLogo{
         background-color: red;
         padding:0px 10px;
-        height: 250px;
+        height: 150px;
         width: 80%;
         margin-bottom: 50px;
         display: flex;
         align-items: center;
         justify-content: space-between;
+    }
+    .oneMode{
+        width: 50%;
     }
     .ncb p{
         font-size: 25px;
@@ -1474,6 +1477,9 @@ flex-direction: column;}
         display: flex;
         align-items: center;
         justify-content: space-between;
+    }
+    .oneMode{
+        width: 50%;
     }
     .ncb p{
         font-size: 25px;
