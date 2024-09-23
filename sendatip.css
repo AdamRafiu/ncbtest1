@@ -325,12 +325,16 @@
     height: 100%;
   }
   .headerProfileHeadingContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: linear-gradient(to right, #f2f, #0004f2);
     -webkit-text-fill-color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
   }
   .headerProfileHeadingContainer h2 {
+    text-align: center;
     color: transparent;
     font-size: 40px;
     text-transform: uppercase;
@@ -404,6 +408,7 @@
     width: 100%;
   }
   .sectionContentHeader h6 {
+    text-transform: capitalize;
     font-size: 25px;
     border-bottom: 1px solid #000;
   }
@@ -916,6 +921,7 @@
       width: 100%;
     }
     .sectionContentHeader h6 {
+      text-transform: capitalize;
       font-size: 25px;
       border-bottom: 1px solid #000;
     }
@@ -1367,6 +1373,7 @@
     }
     .sectionContentHeader h6 {
       font-size: 25px;
+      text-transform: capitalize;
       border-bottom: 1px solid #000;
     }
     .sectionContentTextContainer {
@@ -1818,6 +1825,16 @@
       padding: 0px 20px;
       order: 3;
     }
+    .headerLogo {
+      background-color: red;
+      padding: 0px 10px;
+      height: 150px;
+      width: 80%;
+      margin-bottom: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
     .navlinkListContainer {
       background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 1, 1, 0.63)),
         url(images/background.jpg) no-repeat;
@@ -1977,6 +1994,7 @@
       width: 100%;
     }
     .sectionContentHeader h6 {
+      text-transform: capitalize;
       font-size: 25px;
       border-bottom: 1px solid #000;
     }

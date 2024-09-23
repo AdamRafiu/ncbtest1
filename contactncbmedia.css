@@ -325,12 +325,16 @@ nav {
   height: 100%;
 }
 .headerProfileHeadingContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: linear-gradient(to right, #f2f, #0004f2);
   -webkit-text-fill-color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
 }
 .headerProfileHeadingContainer h2 {
+  text-align: center;
   color: transparent;
   font-size: 40px;
   text-transform: uppercase;
@@ -1839,7 +1843,7 @@ nav {
   .headerLogo {
     background-color: red;
     padding: 0px 10px;
-    height: 300px;
+    height: 150px;
     width: 80%;
     margin-bottom: 50px;
     display: flex;

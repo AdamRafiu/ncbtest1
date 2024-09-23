@@ -314,6 +314,7 @@ nav{
     -webkit-text-fill-color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
+  width: 90%;
 }
 .headerProfileParagrapghContainer p{
   
@@ -391,7 +392,7 @@ nav{
 .sectionInputIconContainer{
 
     margin-top: 20px;
-    width: 370px;
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content: center;

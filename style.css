@@ -412,39 +412,39 @@ nav{
 }
 
 .musiciansCardContainer{
-    width: 90%;
+    margin-top: 30px;
+    max-width: 90%;
+    width: 100%;
+    background: #010545;
+    min-width: 90%;
+    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
-    background: #1b0830;
     gap: 10px;
-    padding-bottom: 20px;
-    padding: 20px;
+    flex-wrap: wrap;
 }
 .musiciansCard{
-    margin-top: 10px;
-    width: 250px;
-    height: 380px;
     border: 2px solid rgba(210, 204, 204, 0.3);
     background: linear-gradient(rgba(171, 167, 167, 0.3),rgba(163, 155, 155, 0.3));
+    border-radius: 10px;
+    height: 100%;
+    width: 210px;
+    margin-bottom: 10px;
     display: flex;
     align-items: center;
-    border-radius: 10px;
     justify-content: center;
-    border: none;
-    padding-bottom: 10px;
     flex-direction: column;
 }
 .musiciansCardImage{
-    height: 130px;
+    height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 130px;
+    width: 100%;
     border: 2px solid #fff;
     overflow: hidden;
-    border-radius: 50%;
+   
 }
 .musiciansCardImage:hover img{
     transform: scale(1.2);
@@ -452,9 +452,9 @@ nav{
 .musiciansCardImage img{
     height: 90%;
     width: 90%;
+    object-fit: cover;
     transition: all 0.2s ease;
     border: 2px solid #fff;
-    border-radius: 50%;
 }
 .musiciansName{
     width: 90%;
@@ -473,7 +473,7 @@ nav{
     border-bottom: 2px solid #fff;
 }
 .musiciansDescription{
-    width: 80%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -484,6 +484,7 @@ nav{
 }
 
 .musiciansDescription p{
+    text-align: center;
     font-size: 14px;
     text-transform: capitalize;
     font-weight: 500;
