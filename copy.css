@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 100%;
+    margin: 50px auto;
+    background-color: #f6f6f6;
+    border: 1px solid #333;
+}
+
+.wrapper-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    flex-direction: column;
+}
+.contentContainerDivider{
+    background-color: rebeccapurple;
+    display: flex;
+    height: 500px;
+    width: 100%;
+}
+.containerHeader {
+    border: 2px solid red;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerHeader h1{
+    color: #999999;
+    border-bottom: 1px solid #999999;
+}
+
+.content {
+    width: 50%;
+    display: none;
+    padding: 10px;
+}
+.contentHeader{
+    padding: 10px;
+    display: flex;
+    border: 2px solid red;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.content h2 {
+    margin-bottom: 10px;
+    color: #000;
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: capitalize;
+  
+    border-bottom: 2px solid #3f3f3f;
+}
+.contentParagraph{
+    margin-top: 10px;
+    width: 100%;
+    border: 2px solid #ddd;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+}
+.content p {
+    text-align: left;
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 10px;
+    color: #333;
+}
+
+.content.active {
+    display: flex;
+    flex-direction: column;
+    border: 10px solid #fff;
+    width: 70%;
+  
+}
+.contentImgTag{
+    width: 30%;
+}
+
+.navigation {
+    position: relative;
+    top: -50px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.arrow {
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    background: #ddd;
+    border-radius: 50%;
+}
+
+.dots {
+    margin-top: 20px;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot.active {
+    background-color: #717171;
+}
