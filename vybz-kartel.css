@@ -1327,7 +1327,7 @@ flex-direction: column;}
     color: #fff;
 }
 
-@media only screen and (width < 990px)  {
+@media only screen and (min-width: 1025px) and (max-width: 1200px)  {
    
     .navLogo{
         display: flex;
@@ -2063,7 +2063,7 @@ flex-direction: column;}
  
 }
 
-@media only screen and (width < 560px) {
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
 
  
     .navLogo{
@@ -2788,7 +2788,7 @@ flex-direction: column;}
  
     
 }
-@media only screen and (width < 450px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
     .navLogo{
         display: flex;
         align-items: center;
@@ -3277,7 +3277,7 @@ flex-direction: column;}
     }
     
 }
-@media only screen and (min-width: 230px) and (max-width: 400px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
     
 
     .navLogo{
