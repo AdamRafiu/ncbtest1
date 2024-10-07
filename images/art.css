@@ -375,8 +375,7 @@ nav{
     display: flex;
     width: 60%;
     align-items: center;
-    justify-content: center;
-    gap: 10px;
+    gap: 20px;
 }
 .musicianContryFlag{
     height: 20px;
@@ -449,10 +448,10 @@ nav{
     overflow: hidden;
   }
   .mainSectionContentSlide {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     margin: auto;
- 
+    height: 250px;
     box-shadow: 0px 0px 5px #999;
     transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
     margin-bottom: 10px;
@@ -462,8 +461,6 @@ nav{
   }
   .mainSectionContentSlide.active {
     display: block;
-    height: 400px;
-   
     transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
   }
   .mainSectionContentHeader {
@@ -484,7 +481,6 @@ nav{
     white-space: wrap;
     text-align: left;
     font-size: 18px;
-    font-weight: 300;
     color: #333;
   }
   .navigation {
@@ -631,7 +627,6 @@ nav{
   /* Ensure the container has a defined size */
   .container {
     background-color: #999;
-    margin: 10px;
     position: relative;
     width: 45%; /* Adjust as needed */
     height: 200px; /* Adjust as needed */
@@ -647,6 +642,7 @@ nav{
     height: 100%;
     display: flex;
     align-items: center;
+    background: yellow;
     justify-content: center;
    
     bottom: 0;
@@ -742,13 +738,10 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
-    position: absolute;
   }
   .footerLinkTest p code{
-    
-    font-size: 10px;
-    
+    font-weight: 700;
+    font-size: 12px;
     font-weight: 900;
     text-transform: capitalize;
     text-align: center;
@@ -787,10 +780,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 70dvh;
     width: 100%;
     flex-direction: column;
-  
   }
   .mainSectionContentSlideContainer {
     width: 100%;
@@ -801,22 +792,17 @@ nav{
     width: 90%;
     padding: 10px;
     margin: auto;
-   
-   height: 100dvh;
+    height: 250px;
     box-shadow: 0px 0px 5px #999;
     transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
-  
+    margin-bottom: 10px;
+    margin-top: 10px;
     border-radius: 5px;
     display: none;
   }
   .mainSectionContentSlide.active {
-    margin-bottom: 10px;
-    margin-top: 10px;
-    height: 90%;
-  
     display: block;
     transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
-
   }
   .mainSectionContentHeader {
     width: 100%;
@@ -829,7 +815,6 @@ nav{
   }
   .mainSectionText {
     width: 100%;
-    height: 100%;
     padding: 10px 20px;
     white-space: wrap;
   }
@@ -837,7 +822,6 @@ nav{
     white-space: wrap;
     text-align: left;
     font-size: 18px;
-    font-weight: 600;
     color: #333;
   }
   .navigation {
@@ -1080,8 +1064,6 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    top: 10px;
   }
   .footerLinks li{
     list-style: none;
@@ -1096,12 +1078,11 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
   }
   .footerLinkTest p code{
     font-weight: 700;
-    font-size: 10px;
-    font-family: "poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 900;
     text-transform: capitalize;
     text-align: center;
     letter-spacing: 1px;
@@ -1110,8 +1091,6 @@ nav{
 #footer{
     background-color: #0e051d;
     width: 100%;
-    margin-bottom: 40px;
-    padding-bottom: 40px;
 }
 .footerContentContainer{
     width: 100%;
@@ -1555,7 +1534,6 @@ flex-direction: column;}
         padding: 10px;
         width: 90%;
         margin: 50px auto;
-        
       }
       .sectionHeader {
         width: 100%;
@@ -1592,7 +1570,7 @@ flex-direction: column;}
         width: 90%;
         padding: 10px;
         margin: auto;
-        height: 100%;
+        height: 350px;
         box-shadow: 0px 0px 5px #999;
         transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
         margin-bottom: 10px;
@@ -2256,7 +2234,7 @@ flex-direction: column;}
     }
     .musicianCategories ul li{
         color: #fff;
-        font-size: 18px;
+        font-size: 20px;
         font-weight: 300;
         list-style-type: disc;
         margin-left: 10px;
@@ -2309,7 +2287,7 @@ flex-direction: column;}
         width: 95%;
         padding: 10px;
         margin: auto;
-        height: 100%;
+        height: 380px;
         box-shadow: 0px 0px 5px #999;
         transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
         margin-bottom: 10px;
@@ -2337,7 +2315,7 @@ flex-direction: column;}
       }
       .mainSectionText p {
         white-space: wrap;
-        font-weight: 500;
+        font-weight: 300;
         text-align: left;
         font-size: 16px;
         color: #333;
@@ -2950,8 +2928,8 @@ flex-direction: column;}
     }
     .musicianCategories ul li{
         color: #fff;
-        font-size: 12px;
-        font-weight: 600;
+        font-size: 20px;
+        font-weight: 300;
         list-style-type: disc;
         margin-left: 10px;
     }
@@ -3003,7 +2981,7 @@ flex-direction: column;}
         width: 95%;
         padding: 10px;
         margin: auto;
-        height: 100%;
+        height: 400px;
         box-shadow: 0px 0px 5px #999;
         transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
         margin-bottom: 10px;
@@ -3031,7 +3009,7 @@ flex-direction: column;}
       }
       .mainSectionText p {
         white-space: wrap;
-        font-weight: 500;
+        font-weight: 300;
         text-align: left;
         font-size: 15px;
         color: #333;
@@ -3525,23 +3503,22 @@ flex-direction: column;}
     }
     .musicianLocation{
         padding-left: 10px;
-        width: 50%;
     }
     .musicianLocation p {
         color: #fff;
-        font-size: 12px;
+        font-size: 16px;
         text-transform: uppercase;
         font-weight: 700;
     }
     .musicianCategories{
         padding-left: 10px;
-        width: 100%;
     }
     .musicianCategories ul li{
         color: #fff;
-        font-size: 10px;
+        font-size: 20px;
+        font-weight: 300;
         list-style-type: disc;
-        font-weight: 400;
+        margin-left: 10px;
     }
     #section {
         width: 100%;
@@ -3574,22 +3551,20 @@ flex-direction: column;}
       .mainSectionContent {
         display: flex;
         margin: auto;
-      
+        align-items: center;
         justify-content: center;
         width: 100%;
-        height: 90dvh;
         flex-direction: column;
       }
       .mainSectionContentSlideContainer {
         width: 100%;
         display: flex;
         overflow: hidden;
-        height: 100dvh;
       }
       .mainSectionContentSlide {
         width: 90%;
         margin: auto;
-        height: 100%;
+        height: 550px;
         box-shadow: 0px 0px 5px #999;
         transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
         margin-bottom: 10px;
@@ -3614,7 +3589,6 @@ flex-direction: column;}
         width: 100%;
         padding: 10px 0px;
         white-space: wrap;
-        height: 100%;
       }
       .mainSectionText p {
         white-space: wrap;
