@@ -359,7 +359,7 @@ nav{
 }
 .musicianName{
     padding: 10px;
-    width: 45%;
+    width: 80%;
     display: flex;
     align-items: center;
  
@@ -373,9 +373,8 @@ nav{
 }
 .subDetainsContainer{
     display: flex;
-    width: 60%;
-    align-items: center;
-    justify-content: center;
+    width: 80%;
+
     gap: 10px;
 }
 .musicianContryFlag{
@@ -1314,12 +1313,17 @@ flex-direction: column;}
     justify-content: center;
     margin-top: 20px;
 }
-.icon{
+.icone{
     width: 100%;
     margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.icone a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
 }
 .icon a i{
     font-size: 40px;
@@ -1327,8 +1331,7 @@ flex-direction: column;}
     color: #fff;
 }
 
-@media only screen and (min-width: 1025px) and (max-width: 1200px)  {
-   
+@media only screen and (width < 990px) {
     .navLogo{
         display: flex;
         align-items: center;
@@ -1485,11 +1488,11 @@ flex-direction: column;}
         
     }
     .muscianProfilePic img{
-        width: 100%;
+        width: 220px;
       padding: 10px;
         border: 10px solid rgba(229, 225, 225, 0.39);
-        height: 100%;
-        border-radius: 50%;
+        height: 220px;
+        border-radius: 110px;
         object-fit: cover;
     }
     .musicianProfileDetailsContainer{
@@ -1530,7 +1533,7 @@ flex-direction: column;}
     }
     .musicianLocation p {
         color: #fff;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 800;
         text-transform: uppercase;
     }
@@ -1539,7 +1542,7 @@ flex-direction: column;}
     }
     .musicianCategories ul li{
         color: #fff;
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 300;
         list-style-type: disc;
         margin-left: 10px;
@@ -1580,19 +1583,20 @@ flex-direction: column;}
         align-items: center;
         justify-content: center;
         width: 100%;
-    
+        height: 100dvh;
         flex-direction: column;
       }
       .mainSectionContentSlideContainer {
         width: 100%;
         display: flex;
         overflow: hidden;
+        height: 90%;
       }
       .mainSectionContentSlide {
         width: 90%;
         padding: 10px;
         margin: auto;
-        height: 100%;
+        height: 90%;
         box-shadow: 0px 0px 5px #999;
         transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
         margin-bottom: 10px;
@@ -1602,6 +1606,7 @@ flex-direction: column;}
       }
       .mainSectionContentSlide.active {
         display: block;
+        height: 90%;
         transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
       }
       .mainSectionContentHeader {
@@ -2063,7 +2068,7 @@ flex-direction: column;}
  
 }
 
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+@media only screen and (width < 560px) {
 
  
     .navLogo{
@@ -2271,7 +2276,7 @@ flex-direction: column;}
       }
       .mainSectionContainer {
         padding: 10px;
-        width: 90%;
+        width: 100dvh;
         margin: 50px auto;
       }
       .sectionHeader {
@@ -2297,16 +2302,17 @@ flex-direction: column;}
         align-items: center;
         justify-content: center;
         width: 100%;
-    
+        
         flex-direction: column;
       }
       .mainSectionContentSlideContainer {
         width: 100%;
         display: flex;
+        height: 100dvh;
         overflow: hidden;
       }
       .mainSectionContentSlide {
-        width: 95%;
+        width: 90%;
         padding: 10px;
         margin: auto;
         height: 100%;
@@ -2319,6 +2325,7 @@ flex-direction: column;}
       }
       .mainSectionContentSlide.active {
         display: block;
+        height: 90%;
         transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
       }
       .mainSectionContentHeader {
@@ -2327,14 +2334,16 @@ flex-direction: column;}
       }
       .mainSectionContentHeader h2 {
         color: #333;
-        font-size: 20px;
+        font-size: 18px;
         text-transform: capitalize;
       }
       .mainSectionText {
         width: 100%;
         padding: 10px 20px;
         white-space: wrap;
+       
       }
+    
       .mainSectionText p {
         white-space: wrap;
         font-weight: 500;
@@ -2788,7 +2797,7 @@ flex-direction: column;}
  
     
 }
-@media only screen and (min-width: 481px) and (max-width: 768px) {
+@media only screen and (width < 450px) {
     .navLogo{
         display: flex;
         align-items: center;
@@ -2963,6 +2972,7 @@ flex-direction: column;}
         display: flex;
       }
       .mainSectionContainer {
+      height: 100%;
         padding: 10px;
         width: 100%;
         margin: 50px auto;
@@ -2976,7 +2986,7 @@ flex-direction: column;}
       }
     
       .sectionHeader h1 {
-        font-size: 19px;
+        font-size: 20px;
         border-bottom: 1px solid #999999;
         text-align: left;
         font-weight: 900;
@@ -2987,7 +2997,7 @@ flex-direction: column;}
       .mainSectionContent {
         display: flex;
         margin: auto;
-    
+     
         align-items: center;
         justify-content: center;
         width: 100%;
@@ -2999,11 +3009,12 @@ flex-direction: column;}
         display: flex;
         overflow: hidden;
       }
+   
       .mainSectionContentSlide {
         width: 95%;
         padding: 10px;
         margin: auto;
-        height: 100%;
+        height: 90%;
         box-shadow: 0px 0px 5px #999;
         transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
         margin-bottom: 10px;
@@ -3012,7 +3023,9 @@ flex-direction: column;}
         display: none;
       }
       .mainSectionContentSlide.active {
+      height: 90%;
         display: block;
+        margin-bottom: 20px;
         transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
       }
       .mainSectionContentHeader {
@@ -3033,7 +3046,7 @@ flex-direction: column;}
         white-space: wrap;
         font-weight: 500;
         text-align: left;
-        font-size: 15px;
+        font-size: 14px;
         color: #333;
       }
       .navigation {
@@ -3277,7 +3290,7 @@ flex-direction: column;}
     }
     
 }
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 230px) and (max-width: 400px) {
     
 
     .navLogo{
@@ -3490,6 +3503,10 @@ flex-direction: column;}
     .musicianProfileDetailsContainer{
         width: 90%;
         margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
     .musicianName{
         padding: 10px;
@@ -3511,7 +3528,7 @@ flex-direction: column;}
         width: 90%;
         align-items: center;
         justify-content: center;
-        gap: 10px;
+        gap: 0px;
     }
     .musicianContryFlag{
         height: 20px;
@@ -3563,7 +3580,7 @@ flex-direction: column;}
         justify-content: center;
       }
       .sectionHeader h1 {
-        font-size: 16px;
+        font-size: 18px;
         border-bottom: 1px solid #999999;
         text-align: left;
         font-weight: 900;
@@ -3577,19 +3594,19 @@ flex-direction: column;}
       
         justify-content: center;
         width: 100%;
-        height: 90dvh;
+        height: 100%;
         flex-direction: column;
       }
       .mainSectionContentSlideContainer {
         width: 100%;
         display: flex;
         overflow: hidden;
-        height: 100dvh;
+        height: 100%;
       }
       .mainSectionContentSlide {
         width: 90%;
         margin: auto;
-        height: 100%;
+     
         box-shadow: 0px 0px 5px #999;
         transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
         margin-bottom: 10px;
@@ -3599,6 +3616,8 @@ flex-direction: column;}
       }
       .mainSectionContentSlide.active {
         display: block;
+        height: 90%;
+        margin-bottom: 30px;
         transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
       }
       .mainSectionContentHeader {
@@ -3607,27 +3626,26 @@ flex-direction: column;}
       }
       .mainSectionContentHeader h2 {
         color: #333;
-        font-size: 16px;
+        font-size: 14px;
         text-transform: capitalize;
       }
       .mainSectionText {
         width: 100%;
-        padding: 10px 0px;
+      
         white-space: wrap;
-        height: 100%;
       }
       .mainSectionText p {
         white-space: wrap;
         font-weight: 500;
-        height: 100%;
         text-align: left;
         font-size: 14px;
-        font-weight: 400;
+        line-height: 25px;
+        font-weight: 500;
         font-family: "poopins", sans-serif;
         color: #333;
       }
       .navigation {
-        margin-top: 20px;
+        margin-top: 50px;
         width: 100%;
         display: flex;
         align-items: center;
@@ -3674,7 +3692,7 @@ flex-direction: column;}
         justify-content: center;
       }
       .asideHeader h3 {
-        font-size: 20px;
+        font-size: 14px;
         font-weight: 900;
       }
       .asideLatestSongContainer {
@@ -3690,13 +3708,13 @@ flex-direction: column;}
         margin-top: 10px;
       }
       .asideLatestSongContent {
-        height: 280px;
+        height: 380px;
         margin-top: 10px;
         margin-bottom: 10px;
-        width: 210px;
+        width: 80%;
         border-radius: 10px;
         padding: 10px;
-        background-color: #f2f2f2;
+        background-color: #00f2f2;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -3707,8 +3725,10 @@ flex-direction: column;}
         width: 100%;
       }
       .youtubeVideo iframe {
-       
+       width: 100%;
+       height: 100%;
         aspect-ratio: 1;
+        border-radius: 10px 10px 0px 0px;
       }
       .youtubevideoText {
         background-color: #333;
