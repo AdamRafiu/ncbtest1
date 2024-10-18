@@ -1402,7 +1402,7 @@ flex-direction: column;}
  
     
 }
-@media only screen and (width < 450px) {
+@media (min-width: 481px) and (max-width: 768px) {
     .navLogo{
         display: flex;
         align-items: center;
