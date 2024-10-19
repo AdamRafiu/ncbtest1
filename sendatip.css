@@ -1719,22 +1719,25 @@
       height: 100%;
       padding: 0px 10px;
     }
-    .headerLogo {
+    .headerLogo{
       background-color: red;
-      padding: 0px 10px;
-      height: 250px;
+      padding:0px 10px;
+      height: 150px;
       width: 80%;
       margin-bottom: 50px;
       display: flex;
       align-items: center;
       justify-content: space-between;
-    }
-    .ncb p {
+  }
+  .oneMode{
+      width: 50%;
+  }
+  .ncb p{
       font-size: 25px;
-    }
-    .media p {
+  }
+  .media p{
       font-size: 25px;
-    }
+  }
     .ncbTetContainer {
       display: flex;
       align-items: center;
