@@ -3650,9 +3650,7 @@ flex-direction: column;}
 }
 @media (max-width: 320px) {
     
-body{
-  background-color: violet;
-}
+
     .navLogo{
         display: flex;
         align-items: center;
