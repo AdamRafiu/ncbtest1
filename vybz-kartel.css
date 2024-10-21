@@ -3112,7 +3112,7 @@ flex-direction: column;}
       .mainSectionContent {
         display: flex;
         margin: auto;
-     height: 150dvh;
+     height: 130dvh;
         align-items: center;
         justify-content: center;
         width: 100%;
@@ -3160,9 +3160,9 @@ flex-direction: column;}
       }
       .mainSectionText p {
         white-space: wrap;
-        font-weight: 500;
+        font-weight: 600;
         text-align: left;
-        font-size: 15px;
+        font-size: 12px;
         line-height: 25px;
         color: #333;
       }
