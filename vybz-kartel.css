@@ -2324,7 +2324,7 @@ flex-direction: column;}
       .mainSectionContainer {
         padding: 10px;
         width: 100dvh;
-        margin: 50px auto;
+        margin: 0px auto;
       }
       .sectionHeader {
         width: 100%;
@@ -2344,8 +2344,7 @@ flex-direction: column;}
       }
       .mainSectionContent {
         display: flex;
-        margin: auto;
-    
+        margin: 10px;
         align-items: center;
         justify-content: center;
         width: 100%;
@@ -2366,7 +2365,7 @@ flex-direction: column;}
         box-shadow: 0px 0px 5px #999;
         transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
         margin-bottom: 10px;
-        margin-top: 10px;
+        margin-top: 0px;
         border-radius: 5px;
         display: none;
       }
@@ -2389,7 +2388,6 @@ flex-direction: column;}
         width: 100%;
         padding: 10px 20px;
         white-space: wrap;
-       
       }
     
       .mainSectionText p {
