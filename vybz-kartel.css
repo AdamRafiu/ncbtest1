@@ -3112,7 +3112,7 @@ flex-direction: column;}
       .mainSectionContent {
         display: flex;
         margin: auto;
-     height: 170dvh;
+     height: 150dvh;
         align-items: center;
         justify-content: center;
         width: 100%;
