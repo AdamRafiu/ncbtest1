@@ -64,7 +64,7 @@ const currentSlide = (n) => {
 const startAutoSlide = () => {
     autoSlide = setInterval(() => {
         moveSlide(1);
-    }, 10000); // 10,000 milliseconds (10 seconds)
+    }, 100000); // 10,000 milliseconds (10 seconds)
 };
 
 const resetAutoSlide = () => {
