@@ -1337,7 +1337,767 @@ flex-direction: column;}
     color: #fff;
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 871px) and (max-width: 1024px) {
+  .navLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    height: 100%;
+    padding: 0px 20px;
+    order: 3;
+}
+.navlinkListContainer{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 1, 1, 0.63)), url(images/background.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid rgba(229, 225, 225, 0.39);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    top: 10dvh;
+    height: 90dvh;
+    justify-content: center;
+    transform: translateX(100%);
+    transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+}
+.navlinkListContainer-checked {
+    transform: translateX(0);
+}
+.navLinkList{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+}
+.navMenuContainer{
+    user-select: none;
+    outline: none;
+    cursor: pointer;
+    background: linear-gradient(rgba(78, 75, 75, 0.3), rgba(107, 95, 95, 0.3));
+    border: 2px solid rgba(229, 225, 225, 0.39);
+    display: flex;  
+    order: 1;
+    transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+}
+.navMenuContainer div{
+    height: 2px;
+    width: 40px;
+    transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+    color: #000;
+    background-color: #fff;
+    margin: 5px;
+}
+@keyframes navLink {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  .toggle .nabMenuButton1 {
+    transform: rotate(45deg) translate(5px, 12px);
+  }
+  .toggle .nabMenuButton2 {
+    opacity: 0;
+  }
+  .toggle .nabMenuButton3 {
+    transform: rotate(-45deg) translate(5px, -12px);
+  }
+
+.ncbTetContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    height: 90%;
+    padding: 10px;
+}
+.ncbTetContainer label{
+    color: #000;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.mediaText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    height: 100%;
+    padding: 0px 10px;
+
+}
+.mediaText strong{
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 0;
+}
+
+.newsLetterButton button{
+    font-size: 16px;
+    padding: 10px 0px;
+    font-weight: 900;
+    transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+   
+}
+.navMenuContainer{
+    height: 80%;
+    width: 50px;
+    background: linear-gradient(rgba(78, 75, 75, 0.3), rgba(107, 95, 95, 0.3));
+border: 2px solid rgba(229, 225, 225, 0.39);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    order: 1;
+    justify-content: center;
+     
+}
+.navMenuContainer div{
+    height: 2px;
+    width: 30px;
+    color: #000;
+    background-color: #fff;
+    margin: 5px;
+}
+.newsLetterForm{
+    transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+     width: 100%;
+     max-width: 90%;
+     right: 40px;
+     margin-top: 20px;
+     position: absolute;
+     padding: 10px;
+     pointer-events: none;
+     opacity: 0;
+ }
+ .newsLetterIcons i{
+    background-color: #000fff;
+    border-radius: 50%;
+}
+     #headerProfile{
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 0;
+        z-index: 1;
+        height: 90dvh;
+        background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(3, 3, 4, 0.755));
+        margin-top: 70px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .headerProfileContentContainer{
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+    .nusicianProfilePicContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 20px;
+        width: 40%;
+    }
+    .muscianProfilePic{
+        height: 250px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 250px;
+        
+    }
+    .muscianProfilePic img{
+        width: 220px;
+      padding: 10px;
+        border: 10px solid rgba(229, 225, 225, 0.39);
+        height: 220px;
+        border-radius: 110px;
+        object-fit: cover;
+    }
+    .musicianProfileDetailsContainer{
+        width: 70%;
+        margin-top: 90px;
+    }
+    .musicianName{
+        padding: 10px;
+        width: 90%;
+        display: flex;
+        align-items: center;
+     
+       
+    }
+    .musicianName p{
+        color: #fff;
+        font-size: 35px;
+        font-family: "poppins";
+        font-weight: 600;
+    }
+    .subDetainsContainer{
+        display: flex;
+        margin-top: 10px;
+        width: 90%;
+        align-items: center;
+        gap: 10px;
+    }
+    .musicianContryFlag{
+        padding-left: 10px;
+    }
+    .musicianContryFlag p {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 200;
+    }
+    .musicianLocation{
+        padding-left: 10px;
+    }
+    .musicianLocation p {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    .musicianCategories{
+        padding-left: 10px;
+    }
+    .musicianCategories ul li{
+        color: #fff;
+        font-size: 16px;
+        font-weight: 300;
+        list-style-type: disc;
+        margin-left: 10px;
+    }
+    #section {
+        width: 100%;
+      }
+      .sectionDividerContainer {
+        width: 100%;
+        display: flex;
+      }
+      .mainSectionContainer {
+        padding: 10px;
+        width: 90%;
+        margin: 50px auto;
+        
+      }
+      .sectionHeader {
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .sectionHeader h1 {
+        font-size: 25px;
+        border-bottom: 1px solid #999999;
+        text-align: left;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-family: "poppins", sans-serif;
+      }
+      .mainSectionContent {
+        display: flex;
+        margin: auto;
+    
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 75dvh;
+        flex-direction: column;
+      }
+      .mainSectionContentSlideContainer {
+        width: 100%;
+        display: flex;
+        overflow: hidden;
+        height: 90%;
+      }
+      .mainSectionContentSlide {
+        width: 90%;
+        padding: 10px;
+        margin: auto;
+        height: 90%;
+        box-shadow: 0px 0px 5px #999;
+        transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+        margin-bottom: 10px;
+        margin-top: 10px;
+        border-radius: 5px;
+        display: none;
+      }
+    
+      .mainSectionContentSlide.active {
+        display: block;
+        height: 90%;
+        transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+      }
+      .mainSectionContentHeader {
+        width: 100%;
+        padding: 10px;
+      }
+      .mainSectionContentHeader h2 {
+        color: #333;
+        font-size: 22px;
+        text-transform: capitalize;
+      }
+      .mainSectionText {
+        width: 100%;
+        padding: 10px 20px;
+        white-space: wrap;
+      }
+      .mainSectionText p {
+        white-space: wrap;
+        text-align: left;
+        line-height: 25px;
+        font-size: 18px;
+        color: #333;
+        font-weight: 500;
+      }
+      .navigation {
+        margin-top: 20px;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: absolute;
+      }
+      .arrow {
+        font-size: 30px;
+        opacity: 0.22;
+        cursor: pointer;
+      }
+      .dots {
+        padding: 10px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+      }
+      .dots .dot {
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;
+        background-color: #999;
+      }
+      .dot.active {
+        transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+        background: #333;
+      }
+      #aside {
+        width: 100%;
+        padding: 10px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .asideContainer {
+        width: 100%;
+      
+      }
+      .asideHeader {
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .asideHeader h3 {
+        font-size: 32px;
+        font-weight: 900;
+      }
+      .asideLatestSongContainer {
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        box-shadow: 0px 0px 2px #333;
+        margin-top: 10px;
+      }
+      .asideLatestSongContent {
+        height: 280px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 200px;
+        border-radius: 10px;
+        padding: 10px;
+        background-color: #f2f2f2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column; /* border: 1px solid #333; */
+        box-shadow: 0px 0px 3px #333;
+      }
+      .youtubeVideo {
+        width: 100%;
+      }
+      .youtubeVideo iframe {
+        aspect-ratio: 1;
+      }
+      .youtubevideoText {
+        background-color: #333;
+        width: 100%;
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 0px 0px 10px 10px;
+      }
+      .youtubevideoText p {
+        font-size: 12px;
+        padding: 2px;
+        text-transform: uppercase;
+        font-weight: 200;
+        text-align: center;
+        font-family: "poppins", sans-serif;
+        color: #fff;
+        letter-spacing: 1px;
+      } 
+      .asideSocialMediaContainer{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 20px;
+        background-color: #f1f1f1;
+        box-shadow: 0px 0px 1px #333;
+      }
+      .asideSocialMediaHeader{
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+      width: 100%;
+      }
+      .asideSocialMediaHeader h4{
+        font-size: 28px;
+        font-family: serif;
+        font-weight: 900;
+        text-transform: capitalize;
+        border-bottom: 1px solid #333;
+      }
+      .asideSocialMediaContentBra{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+      }
+      /* Ensure the container has a defined size */
+      .container {
+        background-color: #999;
+        margin: 10px;
+        position: relative;
+        width: 45%; /* Adjust as needed */
+        height: 200px; /* Adjust as needed */
+      }
+      .container:last-child{
+        width: 90%;
+      }
+      
+      /* The icon will fill the container and be positioned at the bottom */
+      .icon {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+        bottom: 0;
+        left: 0;
+      }
+      
+      .icon i {
+        width: 100%;
+        color: #f1f1f1;
+        height: 100%;
+        font-size: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        object-fit: cover; /* Ensures the icon scales properly within the container */
+      }
+      
+      
+      /* The text will also fill the container and be on top */
+      .text {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1; /* Ensure the text is above the icon */
+        color: white; /* Adjust text color to contrast with the icon */
+        font-size: 20px; /* Adjust as needed */
+        font-weight: bold;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.5); /* Optional: Adds a semi-transparent background to the text */
+      }
+      .text a{
+        text-decoration: none;
+        font-family: "poppins", sans-serif;
+        color: #fff;
+        font-size: 28px;
+        text-transform: capitalize;
+        letter-spacing: 2px;
+        font-weight: 700;
+      }
+    
+     #footer{
+        background-color: #0e051d;
+        width: 100%;
+    }
+    .footerContentContainer{
+        width: 100%;
+    }
+    .footerDontMissContainer{
+        height: 100px;
+        width: 100%;
+        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .dontMiss p{
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 25px;
+        list-style-position: 1px;
+    }
+    .stayTune p{
+        color: #000;
+        text-transform: uppercase;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 25px;
+    }
+    .footerListWrapper{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+    }
+    .footerFoursSectionContainer{
+        border-right: 2px solid #f2f2f2;
+        width: 50%;
+    }
+    .fourSectionContentContainer{
+        width: 100%;
+    }
+    .footerSectionContent{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    flex-direction: column;}
+    
+    .footerLogoContainer{
+        padding: 10px;
+    }
+    .footerLogoContent{
+        background-color: red;
+        height: 100px;
+        width: 230px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footerNcb{
+        height: 90%;
+        width: 50%;
+        background-color: #f2f2f2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footerNcb p {
+        color: #000;
+        font-size: 25px;
+        font-weight: 900;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+    }
+    .footerMedia{
+        height: 100%;
+        width: 50%;
+        margin-left: -10px;
+        background-color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footerMedia p {
+        color: #f2f2f2;
+        font-size: 25px;
+        font-weight: 900;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+    }
+    .footerdescrptioText{
+        margin-top: 10px;
+        width: 90%;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    .footerdescrptioText p{
+        color: #999;
+        font-weight: 700;
+    
+    }
+    .footerEmail{
+        margin-top: 20px;
+        width: 90%;
+        padding: 10px;
+    }
+    .footerEmail p{
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+    .footerSectionHeader{
+        border-bottom: 2px solid #999;
+    }
+    .footerSectionHeader h5{
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-top: 10px;
+        font-family: "poppins";
+        color: #fff;
+    }
+    .footerUlContainer{
+        margin-top: 10px;
+        padding: 10px;
+    }
+    .footerUlContentList{
+        width: 100%;
+    }
+    .footerUlContentList li{
+        list-style: none;
+        padding:10px 0px;
+    }
+    .footerUlContentList li a{
+        text-decoration: none;
+        font-size: 18px;
+        text-transform: capitalize;
+        font-weight: 350;
+        color: #999;
+    }
+    .footerFormContainer{
+        margin-top: 10px;
+        padding: 10px;
+    }
+    #form{
+        height: 100%;
+        width: 100%;
+    }
+    .joinNesLetters{
+        width: 100%;
+      
+    }
+    .joinNesLetters p{
+        font-size: 18px;
+        font-weight: 400;
+        color: #fff;
+        border-bottom: 2px solid #000;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: capitalize;
+    
+    }
+    .joinInputForm{
+        width: 100%;
+        height: 30px;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    .joinInputForm input{
+        border-radius: 5px;
+        width: 100%;
+        height: 100%;
+        outline: none;
+        border: none;
+    }
+    .footerSocialMedia{
+        margin-top: 20px;
+        width: 100%;
+        padding: 10px;
+    }
+    .socialMediaText{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .socialMediaText p{
+        font-size: 20px;
+        font-weight: 650;
+        border-bottom: 1px solid #fff;
+        font-family: "poppins";
+        text-transform: capitalize;
+        color: #fff;
+        font-size: 16px;
+    }
+    .iconsContainer{
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .icon{
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon a i{
+        font-size: 40px;
+        font-weight: 200;
+        color: #fff;
+    }
+    
+    .lastFooterContent{
+        background-color: #09002a;
+        height: 10dvh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .lastFooterContent p{
+        color: #999;
+        font-weight: 700;
+        font-size: 14px;
+        
+    }
+}
+@media (min-width: 769px) and (max-width: 870px) {
   .navLogo{
     display: flex;
     align-items: center;
