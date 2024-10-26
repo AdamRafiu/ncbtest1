@@ -1,0 +1,44 @@
+/* Extra small phones (portrait) */
+@media (max-width: 320px) {
+    /* Styles for iPhone SE, older devices */
+}
+
+/* Small phones */
+@media (min-width: 321px) and (max-width: 480px) {
+    /* Styles for older smartphones and smaller Android devices */
+}
+
+/* Medium phones */
+@media (min-width: 481px) and (max-width: 768px) {
+    /* Styles for iPhones and standard smartphones */
+}
+
+/* Tablets (portrait) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Styles for iPads and smaller tablets */
+}
+
+/* Tablets (landscape) and small laptops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    /* Styles for landscape tablets and smaller laptops */
+}
+
+/* Small laptops */
+@media (min-width: 1281px) and (max-width: 1440px) {
+    /* Styles for small laptops like MacBook Pro 13" */
+}
+
+/* Standard laptops */
+@media (min-width: 1441px) and (max-width: 1600px) {
+    /* Styles for standard laptops and ultrabooks */
+}
+
+/* Small desktops */
+@media (min-width: 1601px) and (max-width: 1920px) {
+    /* Styles for smaller desktop screens up to 1080p */
+}
+
+/* Large desktops */
+@media (min-width: 1921px) {
+    /* Styles for larger desktop monitors and 4K displays */
+}

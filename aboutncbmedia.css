@@ -129,6 +129,7 @@ nav{
     text-transform: uppercase;
     font-weight: 800;
 }
+
 .headerLogo{
     background-color: red;
     padding:0px 10px;
@@ -679,7 +680,7 @@ flex-direction: column;}
     .headerLogo{
         background-color: red;
         padding:0px 10px;
-        height: 400px;
+        height: 200px;
         width: 80%;
         margin-bottom: 50px;
         display: flex;
@@ -847,63 +848,6 @@ flex-direction: column;}
         justify-content: center;
         flex-direction: column;
     }
-     #section{
-        margin-top: 100px;
-        margin-bottom: 20px;
-        padding-bottom: 40px;
-        background: #dbd9d9;
-    }
-    .sectionAllConent{
-        padding: 10px;
-        margin-top: 10px;
-        width: 100%;
-        margin: auto;
-    }
-    .aboutNcbMediaTextContainer{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-    .aboutNcbMediaHeaderContainer{
-        width: 100%;
-        margin-top: 20px;
-    }
-    .aboutNcbMediaHeaderContainer h6{
-        font-size: 22px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    .hr{
-        height: 2px;
-        width: 100%;
-        color: #333;
-        background-color: #333;
-    }
-    .aboutNcbMediaText{
-        width: 100%;
-        margin-top: 20px;
-    }
-    .aboutNcbMediaText p{
-        font-size: 20px;
-        font-weight: 10;
-        width: 100%;
-        font-family: serif;
-    }
-    
-    .aboutNcbMediaText span{
-        color: red;
-        border-bottom: 1px solid #999;
-        text-align: left;
-        font-family: "poppins";
-        font-weight: 800;
-    }
-    .aboutNcbMediaContainer{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-     
     
      #footer{
         background-color: #0e051d;
@@ -1157,7 +1101,7 @@ flex-direction: column;}
     .headerLogo{
         background-color: red;
         padding:0px 10px;
-        height: 400px;
+        height: 200px;
         width: 80%;
         margin-bottom: 50px;
         display: flex;
@@ -1583,7 +1527,7 @@ flex-direction: column;}
     .headerLogo{
         background-color: red;
         padding:0px 10px;
-        height: 400px;
+        height: 150px;
         width: 80%;
         margin-bottom: 50px;
         display: flex;
@@ -2016,7 +1960,7 @@ flex-direction: column;}
     .headerLogo{
         background-color: red;
         padding:0px 10px;
-        height: 400px;
+        height: 150px;
         width: 80%;
         margin-bottom: 50px;
         display: flex;
@@ -2444,42 +2388,31 @@ flex-direction: column;}
         padding: 0px 10px;
         order: 3;
     }
-    .headerLogo{
+    .headerLogo {
         background-color: red;
-        padding:0px 10px;
-        height: 400px;
+        padding: 0px 10px;
+        height: 100px;
         width: 80%;
         margin-bottom: 50px;
         display: flex;
         align-items: center;
         justify-content: space-between;
-    }
-    .ncb{
-        height: 90%;
-        width: 50%;
-        background-color: #f2f2f2;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-   .ncb p{
-    font-size: 50px;
-   }
-    .media{
-        height: 100%;
-        width: 50%;
-        background-color: #000;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-   .media p{
-    font-size: 50px;
-    color: #f2f2f2;
-    font-family: Arial, Helvetica, sans-serif;
+      }
+       .oneMode{
+              width: 50%;
+          }
+          .ncb p{
+              font-size: 25px;
+          }
+          .media p{
+              font-size: 25px;
+          }
+.newsLetterButton button{
+    font-size: 10px;
+    padding: 10px 0px;
     font-weight: 900;
-    text-transform: uppercase;
+    transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+   
 }
 
     .navlinkListContainer{
@@ -2868,35 +2801,25 @@ flex-direction: column;}
         padding: 0px 10px;
         order: 3;
     }
-    .headerLogo{
+    .headerLogo {
         background-color: red;
-        padding:0px 10px;
-        height: 150px;
-        width: 90%;
+        padding: 0px 10px;
+        height: 100px;
+        width: 80%;
         margin-bottom: 50px;
         display: flex;
         align-items: center;
         justify-content: space-between;
-    }
-    .ncb{
-        height: 90%;
-        width: 50%;
-        background-color: #f2f2f2;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-   .ncb p{
-    font-size: 50px;
-   }
-    .media{
-        height: 100%;
-        width: 50%;
-        background-color: #000;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+      }
+       .oneMode{
+              width: 100%;
+          }
+          .ncb p{
+              font-size: 25px;
+          }
+          .media p{
+              font-size: 25px;
+          }
    
     .newsLetterButton button{
         font-size: 8px;
@@ -3310,7 +3233,7 @@ flex-direction: column;}
   align-items: center;
   justify-content: space-between;
 }
-    .oneMode{
+ .oneMode{
         width: 50%;
     }
     .ncb p{
@@ -3319,6 +3242,7 @@ flex-direction: column;}
     .media p{
         font-size: 25px;
     }
+   
     .headerProfileHeadingContainer{
         display: flex;
         align-items: center;
