@@ -841,14 +841,18 @@
     }
     .newsLetterForm {
       transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
-      width: 246px;
-      max-width: 100%;
-      right: 300px;
+      width: 100%;
+      max-width: 90%;
+      right: 40px;
       margin-top: 20px;
       position: absolute;
       padding: 10px;
       pointer-events: none;
       opacity: 0;
+    }
+    .newsLetterIcons i {
+      background-color: #000fff;
+      border-radius: 50%;
     }
   
     #section {
@@ -1322,14 +1326,18 @@
     }
     .newsLetterForm {
       transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
-      width: 246px;
-      max-width: 100%;
-      right: 300px;
+      width: 100%;
+      max-width: 90%;
+      right: 40px;
       margin-top: 20px;
       position: absolute;
       padding: 10px;
       pointer-events: none;
       opacity: 0;
+    }
+    .newsLetterIcons i {
+      background-color: #000fff;
+      border-radius: 50%;
     }
   
     #section {
@@ -1803,16 +1811,19 @@
     }
     .newsLetterForm {
       transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
-      width: 246px;
-      max-width: 100%;
-      right: 300px;
+      width: 100%;
+      max-width: 90%;
+      right: 40px;
       margin-top: 20px;
       position: absolute;
       padding: 10px;
       pointer-events: none;
       opacity: 0;
     }
-  
+    .newsLetterIcons i {
+      background-color: #000fff;
+      border-radius: 50%;
+    }
   
     #section {
       margin-top: 40px;
@@ -2289,14 +2300,18 @@
     }
     .newsLetterForm {
       transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
-      width: 246px;
-      max-width: 100%;
-      right: 300px;
+      width: 100%;
+      max-width: 90%;
+      right: 40px;
       margin-top: 20px;
       position: absolute;
       padding: 10px;
       pointer-events: none;
       opacity: 0;
+    }
+    .newsLetterIcons i {
+      background-color: #000fff;
+      border-radius: 50%;
     }
     .newsLetterButton button {
       font-size: 8px;
@@ -2767,14 +2782,18 @@
     }
     .newsLetterForm {
       transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
-      width: 246px;
-      max-width: 100%;
-      right: 300px;
+      width: 100%;
+      max-width: 90%;
+      right: 40px;
       margin-top: 20px;
       position: absolute;
       padding: 10px;
       pointer-events: none;
       opacity: 0;
+    }
+    .newsLetterIcons i {
+      background-color: #000fff;
+      border-radius: 50%;
     }
     #section {
       margin-top: 40px;
@@ -3251,14 +3270,18 @@
     }
     .newsLetterForm {
       transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
-      width: 246px;
-      max-width: 100%;
-      right: 300px;
+      width: 100%;
+      max-width: 90%;
+      right: 40px;
       margin-top: 20px;
       position: absolute;
       padding: 10px;
       pointer-events: none;
       opacity: 0;
+    }
+    .newsLetterIcons i {
+      background-color: #000fff;
+      border-radius: 50%;
     }
     #section {
       margin-top: 40px;
