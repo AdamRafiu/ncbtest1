@@ -1698,7 +1698,7 @@
     }
   }
   
-  @media (min-width: 555px) and (max-width: 768px) {
+  @media (min-width: 555px) and (max-width: 768.99px) {
     .navLogo {
       display: flex;
       align-items: center;

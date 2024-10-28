@@ -839,17 +839,6 @@ nav {
   .toggle .nabMenuButton3 {
     transform: rotate(-45deg) translate(5px, -12px);
   }
-  .newsLetterForm {
-    transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
-    width: 246px;
-    max-width: 100%;
-    right: 300px;
-    margin-top: 20px;
-    position: absolute;
-    padding: 10px;
-    pointer-events: none;
-    opacity: 0;
-  }
   .newsLetterForm{
     transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
      width: 100%;
@@ -1333,17 +1322,7 @@ text-transform: uppercase;
   .toggle .nabMenuButton3 {
     transform: rotate(-45deg) translate(5px, -12px);
   }
-  .newsLetterForm {
-    transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
-    width: 246px;
-    max-width: 100%;
-    right: 300px;
-    margin-top: 20px;
-    position: absolute;
-    padding: 10px;
-    pointer-events: none;
-    opacity: 0;
-  }
+
   .newsLetterForm{
     transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
      width: 100%;
@@ -1717,7 +1696,7 @@ text-transform: uppercase;
   }
 }
 
-@media (min-width: 555px) and (max-width: 768px) {
+@media (min-width: 555px) and (max-width: 768.99px) {
   .navLogo {
     display: flex;
     align-items: center;
@@ -1828,17 +1807,7 @@ text-transform: uppercase;
   .toggle .nabMenuButton3 {
     transform: rotate(-45deg) translate(5px, -12px);
   }
-  .newsLetterForm {
-    transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
-    width: 246px;
-    max-width: 100%;
-    right: 300px;
-    margin-top: 20px;
-    position: absolute;
-    padding: 10px;
-    pointer-events: none;
-    opacity: 0;
-  }
+
   .newsLetterForm{
     transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
      width: 100%;
@@ -2238,7 +2207,7 @@ text-transform: uppercase;
 }
 .ncb{
     height: 90%;
-    width: 50%;
+    width: 100%;
     background-color: #f2f2f2;
     display: flex;
     align-items: center;
@@ -2249,7 +2218,7 @@ font-size: 50px;
 }
 .media{
     height: 100%;
-    width: 50%;
+    width: 100%;
     background-color: #000;
     display: flex;
     align-items: center;
@@ -2326,17 +2295,6 @@ text-transform: uppercase;
   }
   .toggle .nabMenuButton3 {
     transform: rotate(-45deg) translate(5px, -12px);
-  }
-  .newsLetterForm {
-    transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
-    width: 246px;
-    max-width: 100%;
-    right: 300px;
-    margin-top: 20px;
-    position: absolute;
-    padding: 10px;
-    pointer-events: none;
-    opacity: 0;
   }
   .newsLetterButton button {
     font-size: 8px;
@@ -2821,14 +2779,18 @@ text-transform: uppercase;
   }
   .newsLetterForm {
     transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
-    width: 246px;
-    max-width: 100%;
-    right: 300px;
+    width: 100%;
+    max-width: 90%;
+    right: 40px;
     margin-top: 20px;
     position: absolute;
     padding: 10px;
     pointer-events: none;
     opacity: 0;
+  }
+  .newsLetterIcons i {
+    background-color: #000fff;
+    border-radius: 50%;
   }
   #section {
     margin-top: 40px;
@@ -3305,14 +3267,18 @@ flex-direction: column;
   }
   .newsLetterForm {
     transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
-    width: 246px;
-    max-width: 100%;
-    right: 300px;
+    width: 100%;
+    max-width: 90%;
+    right: 40px;
     margin-top: 20px;
     position: absolute;
     padding: 10px;
     pointer-events: none;
     opacity: 0;
+  }
+  .newsLetterIcons i {
+    background-color: #000fff;
+    border-radius: 50%;
   }
   .sectionContentText {
     width: 100%;

@@ -885,17 +885,6 @@
     .toggle .nabMenuButton3 {
       transform: rotate(-45deg) translate(5px, -12px);
     }
-    .newsLetterForm {
-      transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
-      width: 246px;
-      max-width: 100%;
-      right: 300px;
-      margin-top: 20px;
-      position: absolute;
-      padding: 10px;
-      pointer-events: none;
-      opacity: 0;
-    }
     .newsLetterForm{
       transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
        width: 100%;
@@ -1381,17 +1370,7 @@
     .toggle .nabMenuButton3 {
       transform: rotate(-45deg) translate(5px, -12px);
     }
-    .newsLetterForm {
-      transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
-      width: 246px;
-      max-width: 100%;
-      right: 300px;
-      margin-top: 20px;
-      position: absolute;
-      padding: 10px;
-      pointer-events: none;
-      opacity: 0;
-    }
+   
     .newsLetterForm{
       transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
        width: 100%;
@@ -1765,7 +1744,7 @@
     }
   }
   
-  @media (min-width: 555px) and (max-width: 768px) {
+  @media (min-width: 555px) and (max-width: 768.99px) {
     .navLogo {
       display: flex;
       align-items: center;
@@ -1875,17 +1854,6 @@
     }
     .toggle .nabMenuButton3 {
       transform: rotate(-45deg) translate(5px, -12px);
-    }
-    .newsLetterForm {
-      transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
-      width: 246px;
-      max-width: 100%;
-      right: 300px;
-      margin-top: 20px;
-      position: absolute;
-      padding: 10px;
-      pointer-events: none;
-      opacity: 0;
     }
     .newsLetterForm{
       transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
@@ -2360,23 +2328,7 @@
     .toggle .nabMenuButton3 {
       transform: rotate(-45deg) translate(5px, -12px);
     }
-    .newsLetterForm {
-      transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
-      width: 246px;
-      max-width: 100%;
-      right: 300px;
-      margin-top: 20px;
-      position: absolute;
-      padding: 10px;
-      pointer-events: none;
-      opacity: 0;
-    }
-    .newsLetterButton button {
-      font-size: 8px;
-      padding: 10px 0px;
-      font-weight: 900;
-      transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
-    }
+  
     .newsLetterForm{
       transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
        width: 100%;
@@ -2852,17 +2804,21 @@
     .toggle .nabMenuButton3 {
       transform: rotate(-45deg) translate(5px, -12px);
     }
-    .newsLetterForm {
+    .newsLetterForm{
       transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
-      width: 246px;
-      max-width: 100%;
-      right: 300px;
-      margin-top: 20px;
-      position: absolute;
-      padding: 10px;
-      pointer-events: none;
-      opacity: 0;
-    }
+       width: 100%;
+       max-width: 90%;
+       right: 40px;
+       margin-top: 20px;
+       position: absolute;
+       padding: 10px;
+       pointer-events: none;
+       opacity: 0;
+   }
+   .newsLetterIcons i{
+      background-color: #000fff;
+      border-radius: 50%;
+  }
     #section {
       margin-top: 40px;
       padding-bottom: 40px;
@@ -3336,17 +3292,21 @@
     .toggle .nabMenuButton3 {
       transform: rotate(-45deg) translate(5px, -12px);
     }
-    .newsLetterForm {
+    .newsLetterForm{
       transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
-      width: 246px;
-      max-width: 100%;
-      right: 300px;
-      margin-top: 20px;
-      position: absolute;
-      padding: 10px;
-      pointer-events: none;
-      opacity: 0;
-    }
+       width: 100%;
+       max-width: 90%;
+       right: 40px;
+       margin-top: 20px;
+       position: absolute;
+       padding: 10px;
+       pointer-events: none;
+       opacity: 0;
+   }
+   .newsLetterIcons i{
+      background-color: #000fff;
+      border-radius: 50%;
+  }
     #section {
       margin-top: 40px;
       padding-bottom: 40px;

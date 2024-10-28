@@ -1426,7 +1426,7 @@ flex-direction: column;}
  
 }
 
-@media (min-width: 555px) and (max-width: 768px) {
+@media (min-width: 555px) and (max-width: 768.99px) {
 
  
     .navLogo {
@@ -2678,7 +2678,7 @@ flex-direction: column;}
         pointer-events: none;
         opacity: 0;
       }
-      .newsLetterForm{
+       .newsLetterForm{
         transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
          width: 100%;
          max-width: 90%;
