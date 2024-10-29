@@ -711,7 +711,7 @@ nav{
       background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
       display: flex;
       justify-content: space-around;
-      padding: 10px 0;
+      padding: 0px 0;
       color: white;
       z-index: 1000;
   }
@@ -722,11 +722,13 @@ nav{
     flex-direction: column;
   }
   .footerLinkEdit{
-    background-color: red;
+   
     border: 1px solid #333;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    border-radius: 30px;
+    width: 60px;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+    background: linear-gradient(to top, transparent 1%, #000000 100%);
+    height: 60px;
   }
   .footerLinks{
     display: flex;
@@ -1560,7 +1562,7 @@ border: 2px solid rgba(229, 225, 225, 0.39);
         align-items: center;
         justify-content: center;
         width: 100%;
-        height: 75dvh;
+        height: 80dvh;
         flex-direction: column;
       }
       .mainSectionContentSlideContainer {
@@ -1605,7 +1607,7 @@ border: 2px solid rgba(229, 225, 225, 0.39);
         white-space: wrap;
         text-align: left;
         line-height: 25px;
-        font-size: 18px;
+        font-size: 16px;
         color: #333;
         font-weight: 500;
       }
@@ -1817,10 +1819,10 @@ border: 2px solid rgba(229, 225, 225, 0.39);
           bottom: 0;
           left: 0;
           width: 100%;
-          background-color: #000;
+          background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
           display: flex;
           justify-content: space-around;
-          padding: 10px 0;
+          padding: 0px 0;
           color: white;
           z-index: 1000;
       }
@@ -1831,11 +1833,13 @@ border: 2px solid rgba(229, 225, 225, 0.39);
         flex-direction: column;
       }
       .footerLinkEdit{
-        background-color: red;
+       
         border: 1px solid #333;
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
+        border-radius: 30px;
+        width: 60px;
+        transition: all 0.2s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+        background: linear-gradient(to top, transparent 1%, #000000 100%);
+        height: 60px;
       }
       .footerLinks{
         display: flex;
@@ -2098,7 +2102,7 @@ border: 2px solid rgba(229, 225, 225, 0.39);
         
     }
 }
-@media (min-width: 769px) and (max-width: 870px) {
+@media (min-width: 769px) and (max-width: 870.99px) {
   .navLogo{
     display: flex;
     align-items: center;
@@ -2375,7 +2379,7 @@ border: 2px solid rgba(229, 225, 225, 0.39);
         align-items: center;
         justify-content: center;
         width: 100%;
-        height: 80dvh;
+        height: 90dvh;
         flex-direction: column;
       }
       .mainSectionContentSlideContainer {
@@ -2420,7 +2424,7 @@ border: 2px solid rgba(229, 225, 225, 0.39);
         white-space: wrap;
         text-align: left;
         line-height: 25px;
-        font-size: 18px;
+        font-size: 16px;
         color: #333;
         font-weight: 500;
       }
@@ -2634,10 +2638,10 @@ border: 2px solid rgba(229, 225, 225, 0.39);
           bottom: 0;
           left: 0;
           width: 100%;
-          background-color: #000;
+          background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
           display: flex;
           justify-content: space-around;
-          padding: 10px 0;
+          padding: 0px 0;
           color: white;
           z-index: 1000;
       }
@@ -2648,11 +2652,13 @@ border: 2px solid rgba(229, 225, 225, 0.39);
         flex-direction: column;
       }
       .footerLinkEdit{
-        background-color: red;
+       
         border: 1px solid #333;
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
+        border-radius: 30px;
+        width: 60px;
+        transition: all 0.2s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+        background: linear-gradient(to top, transparent 1%, #000000 100%);
+        height: 60px;
       }
       .footerLinks{
         display: flex;
@@ -2704,6 +2710,7 @@ border: 2px solid rgba(229, 225, 225, 0.39);
     }
     .dontMiss p{
         color: #fff;
+
         text-transform: uppercase;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         font-size: 25px;
@@ -2921,7 +2928,7 @@ border: 2px solid rgba(229, 225, 225, 0.39);
  
 }
 
-@media (min-width: 555px) and (max-width: 768px) {
+@media (min-width: 555px) and (max-width: 768.99px) {
   .navLogo{
     display: flex;
     align-items: center;
@@ -3203,7 +3210,7 @@ border: 2px solid rgba(229, 225, 225, 0.39);
         align-items: center;
         justify-content: center;
         width: 100%;
-        height: 80dvh;
+        height: 90dvh;
         flex-direction: column;
       }
       .mainSectionContentSlideContainer {
@@ -3461,10 +3468,10 @@ border: 2px solid rgba(229, 225, 225, 0.39);
           bottom: 0;
           left: 0;
           width: 100%;
-          background-color: #000;
+          background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
           display: flex;
           justify-content: space-around;
-          padding: 10px 0;
+          padding: 0px 0;
           color: white;
           z-index: 1000;
       }
@@ -3475,11 +3482,13 @@ border: 2px solid rgba(229, 225, 225, 0.39);
         flex-direction: column;
       }
       .footerLinkEdit{
-        background-color: red;
+       
         border: 1px solid #333;
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
+        border-radius: 30px;
+        width: 60px;
+        transition: all 0.2s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+        background: linear-gradient(to top, transparent 1%, #000000 100%);
+        height: 60px;
       }
       .footerLinks{
         display: flex;
@@ -3751,7 +3760,7 @@ border: 2px solid rgba(229, 225, 225, 0.39);
     }
     
 }
-@media (min-width: 479px) and (max-width: 556px) {
+@media (min-width: 479px) and (max-width: 556.99px) {
   .navLogo{
     display: flex;
     align-items: center;
@@ -4033,14 +4042,14 @@ border: 2px solid rgba(229, 225, 225, 0.39);
         align-items: center;
         justify-content: center;
         width: 100%;
-        height: 95dvh;
+        height: 100dvh;
         flex-direction: column;
       }
       .mainSectionContentSlideContainer {
         width: 100%;
         display: flex;
         overflow: hidden;
-        height: 90%;
+        height: 100%;
       }
       .mainSectionContentSlide {
         width: 90%;
@@ -4289,10 +4298,10 @@ border: 2px solid rgba(229, 225, 225, 0.39);
           bottom: 0;
           left: 0;
           width: 100%;
-          background-color: #000;
+          background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
           display: flex;
           justify-content: space-around;
-          padding: 10px 0;
+          padding: 0px 0;
           color: white;
           z-index: 1000;
       }
@@ -4303,11 +4312,13 @@ border: 2px solid rgba(229, 225, 225, 0.39);
         flex-direction: column;
       }
       .footerLinkEdit{
-        background-color: red;
+       
         border: 1px solid #333;
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
+        border-radius: 30px;
+        width: 60px;
+        transition: all 0.2s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+        background: linear-gradient(to top, transparent 1%, #000000 100%);
+        height: 60px;
       }
       .footerLinks{
         display: flex;
@@ -4579,7 +4590,7 @@ border: 2px solid rgba(229, 225, 225, 0.39);
     }
     
 }
-  @media (min-width: 432px) and (max-width: 480px) {
+  @media (min-width: 432px) and (max-width: 480.99px) {
   
     .navLogo{
       display: flex;
@@ -5159,10 +5170,10 @@ border: 2px solid rgba(229, 225, 225, 0.39);
         bottom: 0;
         left: 0;
         width: 100%;
-        background-color: #000;
+        background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
         display: flex;
         justify-content: space-around;
-        padding: 10px 0;
+        padding: 0px 0;
         color: white;
         z-index: 1000;
     }
@@ -5173,11 +5184,13 @@ border: 2px solid rgba(229, 225, 225, 0.39);
       flex-direction: column;
     }
     .footerLinkEdit{
-      background-color: red;
+     
       border: 1px solid #333;
-      border-radius: 50%;
-      width: 50px;
-      height: 50px;
+      border-radius: 30px;
+      width: 60px;
+      transition: all 0.2s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+      background: linear-gradient(to top, transparent 1%, #000000 100%);
+      height: 60px;
     }
     .footerLinks{
       display: flex;
@@ -5449,7 +5462,7 @@ border: 2px solid rgba(229, 225, 225, 0.39);
   }
     
 }
-  @media (min-width: 394px) and (max-width: 433px) {
+  @media (min-width: 394px) and (max-width: 433.99px) {
   
     .navLogo{
       display: flex;
@@ -6029,10 +6042,10 @@ border: 2px solid rgba(229, 225, 225, 0.39);
         bottom: 0;
         left: 0;
         width: 100%;
-        background-color: #000;
+        background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
         display: flex;
         justify-content: space-around;
-        padding: 10px 0;
+        padding: 0px 0;
         color: white;
         z-index: 1000;
     }
@@ -6043,11 +6056,13 @@ border: 2px solid rgba(229, 225, 225, 0.39);
       flex-direction: column;
     }
     .footerLinkEdit{
-      background-color: red;
+     
       border: 1px solid #333;
-      border-radius: 50%;
-      width: 50px;
-      height: 50px;
+      border-radius: 30px;
+      width: 60px;
+      transition: all 0.2s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+      background: linear-gradient(to top, transparent 1%, #000000 100%);
+      height: 60px;
     }
     .footerLinks{
       display: flex;
@@ -6868,10 +6883,10 @@ border: 2px solid rgba(229, 225, 225, 0.39);
           bottom: 0;
           left: 0;
           width: 100%;
-          background-color: #000;
+          background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
           display: flex;
           justify-content: space-around;
-          padding: 10px 0;
+          padding: 0px 0;
           color: white;
           z-index: 1000;
       }
@@ -6882,11 +6897,13 @@ border: 2px solid rgba(229, 225, 225, 0.39);
         flex-direction: column;
       }
       .footerLinkEdit{
-        background-color: red;
+       
         border: 1px solid #333;
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
+        border-radius: 30px;
+        width: 60px;
+        transition: all 0.2s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+        background: linear-gradient(to top, transparent 1%, #000000 100%);
+        height: 60px;
       }
       .footerLinks{
         display: flex;
