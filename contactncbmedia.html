@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="font.css" />
     <link rel="stylesheet" href="webfonts/" />
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
     <title>ncb media</title>
   </head>
   <body>
@@ -187,7 +190,7 @@
                       <textarea id="message" name="message" rows="6" placeholder="add message" class="sectionTextArea" required></textarea>
                     </div>
                     <div class="sectionFormInput">
-                      <button type="submit" id="buttonInput">submit form</button>
+                      <button type="submit" onclick="sendMail()" id="buttonInput">submit form</button>
                     </div>
   
                     </div>
@@ -350,7 +353,7 @@
         </footer>
       </div>
     </div>
-
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="contactncbmedia.js"></script>
   </body>
 </html>

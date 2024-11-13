@@ -29,3 +29,30 @@ const navContent = document.querySelector(".navContent"),
     
     }
     navSlide();
+
+
+    function sendMail() {
+        (function() {
+            emailjs.init("LipJlRzvgeXe5XON2");
+        })();
+
+        var serviceID = "service_a9r2gu5";
+        var templateID = "template_u84zczf";
+
+        var params = {
+            firstName: document.querySelector("#firstName").value,
+         lastName: document.querySelector("#lastName").value,
+         emailInput: document.querySelector("#emailInput").value,
+         urlInput: document.querySelector("#urlInput").value,
+         subjectInput: document.querySelector("#subjectInput").value,
+         telInput: document.querySelector("#telInput").value,
+         message: document.querySelector("#message").value
+        };
+
+        emailjs.send(serviceID, templateID, params).then(res => {
+            alert('thank you ' + params["emailInput"] + '! your subscription  is succesfull')
+        })
+        .catch();
+    }
+
+  

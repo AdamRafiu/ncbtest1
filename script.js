@@ -29,3 +29,9 @@ const navContent = document.querySelector(".navContent"),
     
     }
     navSlide();
+
+
+    // form validation
+
+
+

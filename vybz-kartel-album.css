@@ -1,0 +1,5731 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "poppins";
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  .wrapper{
+    height: 100%;
+    width: 100%;
+  }
+  .allContent{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #header{
+    height: 100dvh;
+    min-height: 100dvh;
+    width: 100%;
+  }
+  .navDecoration{
+    height: 80px;
+    max-width: 100%;
+    width: 100%;
+    position: relative;
+    background: #09002a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+  
+  }
+  
+  .navDecorationColor1{
+    height: 30%;
+    width: 100px;
+    border-radius: 10px 200px 0px 200px;
+    background: linear-gradient(#fdfcff, #0004f2);
+  }
+  .navDecorationColor2{
+    height: 30%;
+    width: 100px;
+    border-radius: 10px 200px 0px 200px;
+    background: linear-gradient(#04c642, #0004f2);
+  }
+  .navDecorationColor3{
+    height: 30%;
+    width: 100px;
+    border-radius: 10px 200px 0px 200px;
+    background: linear-gradient(#930666, #ed1212);
+  }
+  .navDecorationColor4{
+    height: 30%;
+    width: 100px;
+    border-radius: 10px 200px 0px 200px;
+    background: linear-gradient(#6ba5e0, #f2b100);
+  }
+  nav{
+    height: 80px;
+    max-width: 100%;
+    z-index: 10;
+    width: 100%;
+    background: linear-gradient(rgba(78, 75, 75, 0.3), rgba(107, 95, 95, 0.3));
+    border: 2px solid rgba(229, 225, 225, 0.39);
+    position: absolute;
+    top: 0;
+   
+    
+  }
+  .headerNav{
+    height: 80px;
+    max-width: 100%;
+    z-index: 10;
+    width: 100%;
+    position: fixed;
+   
+  }
+  .navContent{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    height: 100%;
+    padding: 0px 10px;
+  }
+  
+  .ncbTetContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    height: 90%;
+    padding: 10px;
+  }
+  .ncbTetContainer label{
+    color: #000;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+  .mediaText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    height: 100%;
+    padding: 0px 10px;
+  
+  }
+  .mediaText strong{
+    color: #ffffff;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+  .headerLogo{
+    background-color: red;
+    padding:0px 10px;
+    height: 500px;
+    width: 80%;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .ncb{
+    height: 90%;
+    width: 50%;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ncb p{
+    font-size: 100px;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+  .media{
+    height: 100%;
+    width: 50%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .media p{
+    font-size: 100px;
+    color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+  .navlinkListContainer{
+    display: flex;
+    z-index: 100;
+    align-items: center;
+    justify-content: center;
+  }
+  .navLinkList{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .navLinkList li{
+    padding: 10px;
+    background: linear-gradient(rgba(78, 75, 75, 0.3), rgba(107, 95, 95, 0.3));
+    border: 2px solid rgba(229, 225, 225, 0.39);
+    border-radius: 6px;
+    overflow: hidden;
+    padding: 0px 10px;
+  }
+  .navLinkList li a{
+    font-size: 20px;
+    font-weight: 900;
+    color: #fff;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+  }
+  .newsLetterContainer{
+   order: 2;
+    max-width: 300px;
+    
+  }
+  .newsLetterButton{
+    background: linear-gradient(rgba(78, 75, 75, 0.3), rgba(107, 95, 95, 0.3));
+    border: 2px solid rgba(229, 225, 225, 0.39);
+    width: 100%;
+    border-radius: 6px;
+    padding: 0px 0px;
+    
+  }
+  .newsLetterButton button{
+    font-size: 14px;
+    transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+   padding: 10px;
+    border-radius: 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    user-select: none;
+    color: #fff;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+  .newsLetterForm{
+   transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+    width: 246px;
+    max-width: 100%;
+    z-index: 99 ;
+    right: 35px;
+    margin-top: 20px;
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+    opacity: 0;
+  }
+  .navContent.openForm .newsLetterForm {
+    pointer-events: all;
+    opacity: 1;
+    transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+  } 
+  .newsLetterForm form{
+    padding: 10px 0px;
+  }
+  .newsLetterForm form .newsLetterInput input{
+    width: 100%;
+    padding: 7px 15px;
+    background-color: #333;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+  }
+  .newsLetterJoinButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .newsLetterJoinButton button {
+    background-color: red;
+    padding: 5px 35px;
+    border: none;
+    outline: none;
+    user-select: none;
+    color: #f2f2f2;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  .newsLetterIcons{
+    position: absolute;
+    right: -35px;
+    user-select: none;
+    outline: none;
+    top: 5px;
+    
+  }
+  .newsLetterIcons i{
+    cursor: pointer;
+    color: #fff;
+    background-color: #000;
+    font-weight: 900;
+    font-size: 30px;
+  }
+  .navMenuContainer{
+    height: 80%;
+    width: 55px;
+    background: linear-gradient(rgba(78, 75, 75, 0.3), rgba(107, 95, 95, 0.3));
+    border: 2px solid rgba(229, 225, 225, 0.39);
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+     
+  }
+  .navMenuContainer div{
+    height: 2px;
+    width: 40px;
+    color: #000;
+    background-color: #fff;
+    margin: 5px;
+  }
+  .headerDecoration{
+    height: 90dvh;
+    width: 100%;
+    margin-top: 70px;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url(vyb.jpg) no-repeat;
+    background-position: cover;
+    background-size: cover;
+    position: relative;
+    filter: blur(20px) brightness(200%) saturate(1) drop-shadow(1px 1px 3px #a10000);
+  }
+  #headerProfile{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    height: 90dvh;
+    background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(3, 3, 4, 0.755));
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .headerProfileContentContainer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  .nusicianProfilePicContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    width: 30%;
+  }
+  .muscianProfilePic{
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    
+  }
+  .muscianProfilePic img{
+    width: 100%;
+  padding: 10px;
+    border: 10px solid rgba(229, 225, 225, 0.39);
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .musicianProfileDetailsContainer{
+    width: 70%;
+    margin-top: 90px;
+  }
+  .musicianName{
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+  
+   
+  }
+  .musicianName p{
+    color: #fff;
+    font-size: 55px;
+    font-family: "poppins";
+    font-weight: 600;
+  }
+  .subDetainsContainer{
+    display: flex;
+    width: 80%;
+  
+    gap: 10px;
+  }
+  .musicianContryFlag{
+    height: 20px;
+    width: 30px;
+  }
+  .musicianContryFlag img {
+    width: 100%;
+    border: 2px solid #dff;
+    height: 100%;
+    
+  }
+  .musicianLocation{
+    padding-left: 10px;
+  }
+  .musicianLocation p {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 800;
+  }
+  .musicianCategories{
+    padding-left: 10px;
+  }
+  .musicianCategories ul li{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    list-style-type: disc;
+    margin-left: 10px;
+  }
+  .footerLinksContainer{
+    position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+      display: flex;
+      justify-content: space-around;
+      padding: 0px 0;
+      color: white;
+      z-index: 1000;
+  }
+  .footerLinksContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .footerLinkEdit{
+   
+    border: 1px solid #333;
+    border-radius: 30px;
+    width: 60px;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+    background: linear-gradient(to top, transparent 1%, #000000 100%);
+    height: 60px;
+  }
+  .footerLinks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 10px;
+  }
+  .footerLinks li{
+    list-style: none;
+  }
+  .footerLinks li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    color: #fff;
+  }
+  .footerLinkTest{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .footerLinkTest p code{
+    font-weight: 700;
+    font-size: 10px;
+    font-family: "poppins", sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  #section{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-color: #f1f1f1;
+  }
+  .sectionMainContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .sectionAlbumDividerContainer{
+    width: 100%;
+    border: 1px solid #333;
+    margin-top: 50px;
+  }
+  .sectionAlbumHeaderContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .sectionAlbumHeaderContainer h1{
+    font-family: "poppins", sans-serif;
+    font-size: 30px;
+    border-bottom: 1px solid #333;
+    letter-spacing: 1px;
+  }
+  .sectionAlbumContentContainer{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: space-around;
+  }
+  .sectionAlbumContent{
+    width: 48%;
+    height: 350px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 10px;
+  }
+  .firstOfTheWeek{
+    background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.799)), url(images/firstoftheweek.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+  }
+  .numb{
+    background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/numb.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+  }
+  .partyWithMe{
+    background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/partywithme.jpeg) no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+  }
+  .fireVybz{
+    background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/fireVybz.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .lighter{
+    background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/lighter.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .kingOfTheDancehall{
+    background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/kingofthedancehall.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .ponDiGaza{
+    background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/PonDiGaza.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .forever{
+    background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/KartelForeverTrilogy.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    width: 80%;
+  }
+  .upToDiTime{
+    background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/Up2DiTime.webp) no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .kinstonStory{
+    background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/KingstonStory.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .sectionAlbumNameHeader{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sectionAlbumNameHeader h2{
+    font-family: "poppins", sans-serif;
+    font-size: 22px;
+    color: #e9e9e9;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+  }
+  .sectionAlbumTracksNameContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .sectionAlbumName{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .sectionAlbumNameResponsive{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+  }
+  .sectionAlbumName li{
+   width: 40%;
+    display: flex;
+    line-height: 40px;
+    color: #f2f2f2;
+    font-weight: 500;
+    font-size: 17px;
+    justify-content: space-between;
+    text-transform: capitalize;
+    align-items: center;
+  }
+  .kingOf li{
+    line-height: 30px;
+  }
+  .ponDi li{
+    line-height: 30px;
+  }
+  .GazaRever li{
+  line-height: 25px;
+  width: 30%;
+  font-size: 12px;
+  margin-top: -10px;
+  }
+  .upToDiTime li{
+  line-height: 30px;
+  width: 30%;
+  font-size: 12px;
+  margin-top: -10px;
+  }
+  .kinstonStory li{
+  line-height: 35px;
+  width: 30%;
+  font-size: 12px;
+  margin-top: -10px;
+  }
+  
+    
+  #footer{
+    background-color: #0e051d;
+    width: 100%;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+  }
+  .footerContentContainer{
+    width: 100%;
+  }
+  .footerDontMissContainer{
+    height: 100px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .dontMiss p{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    list-style-position: 1px;
+  }
+  .stayTune p{
+    color: #000;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    list-style-position: 1px;
+  }
+  .footerListWrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+  }
+  .footerFoursSectionContainer{
+    border-right: 2px solid #f2f2f2;
+    width: 25%;
+  }
+  .fourSectionContentContainer{
+    width: 100%;
+  }
+  .footerSectionContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  flex-direction: column;}
+  
+  .footerLogoContainer{
+    padding: 10px;
+  }
+  .footerLogoContent{
+    background-color: red;
+    height: 100px;
+    width: 250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footerNcb{
+    height: 90%;
+    width: 50%;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footerNcb p {
+    color: #000;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+  }
+  .footerMedia{
+    height: 100%;
+    width: 50%;
+    margin-left: -10px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footerMedia p {
+    color: #f2f2f2;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+  }
+  .footerdescrptioText{
+    margin-top: 10px;
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  .footerdescrptioText p{
+    color: #999;
+    font-weight: 700;
+  
+  }
+  .footerEmail{
+    margin-top: 20px;
+    width: 90%;
+    padding: 10px;
+  }
+  .footerEmail p{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  .footerSectionHeader{
+    border-bottom: 2px solid #999;
+  }
+  .footerSectionHeader h5{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-family: "poppins";
+    color: #fff;
+  }
+  .footerUlContainer{
+    margin-top: 10px;
+    padding: 10px;
+  }
+  .footerUlContentList{
+    width: 100%;
+  }
+  .footerUlContentList li{
+    list-style: none;
+    padding:10px 0px;
+  }
+  .footerUlContentList li a{
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 350;
+    color: #999;
+  }
+  .footerFormContainer{
+    margin-top: 10px;
+    padding: 10px;
+  }
+  #form{
+    height: 100%;
+    width: 100%;
+  }
+  .joinNesLetters{
+    width: 100%;
+  
+  }
+  .joinNesLetters p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    border-bottom: 2px solid #000;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+  
+  }
+  .joinInputForm{
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  .joinInputForm input{
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+  }
+  .footerSocialMedia{
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+  }
+  .socialMediaText{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .socialMediaText p{
+    font-size: 20px;
+    font-weight: 650;
+    border-bottom: 1px solid #fff;
+    font-family: "poppins";
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 16px;
+  }
+  .iconsContainer{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .icone{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .icone a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
+  }
+  .icon a i{
+    font-size: 40px;
+    font-weight: 200;
+    color: #fff;
+  }
+  
+  @media (min-width: 871px) and (max-width: 1024px) {
+  .navLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    height: 100%;
+    padding: 0px 20px;
+    order: 3;
+  }
+  .navlinkListContainer{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 1, 1, 0.63)), url(images/background.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid rgba(229, 225, 225, 0.39);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    top: 10dvh;
+    height: 90dvh;
+    justify-content: center;
+    transform: translateX(100%);
+    transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+  }
+  .navlinkListContainer-checked {
+    transform: translateX(0);
+  }
+  .navLinkList{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .navMenuContainer{
+    user-select: none;
+    outline: none;
+    cursor: pointer;
+    background: linear-gradient(rgba(78, 75, 75, 0.3), rgba(107, 95, 95, 0.3));
+    border: 2px solid rgba(229, 225, 225, 0.39);
+    display: flex;  
+    order: 1;
+    transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+  }
+  .navMenuContainer div{
+    height: 2px;
+    width: 40px;
+    transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+    color: #000;
+    background-color: #fff;
+    margin: 5px;
+  }
+  @keyframes navLink {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  .toggle .nabMenuButton1 {
+    transform: rotate(45deg) translate(5px, 12px);
+  }
+  .toggle .nabMenuButton2 {
+    opacity: 0;
+  }
+  .toggle .nabMenuButton3 {
+    transform: rotate(-45deg) translate(5px, -12px);
+  }
+  
+  .ncbTetContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    height: 90%;
+    padding: 10px;
+  }
+  .ncbTetContainer label{
+    color: #000;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+  .mediaText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    height: 100%;
+    padding: 0px 10px;
+  
+  }
+  .mediaText strong{
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 0;
+  }
+  
+  .newsLetterButton button{
+    font-size: 16px;
+    padding: 10px 0px;
+    font-weight: 900;
+    transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+   
+  }
+  .navMenuContainer{
+    height: 80%;
+    width: 50px;
+    background: linear-gradient(rgba(78, 75, 75, 0.3), rgba(107, 95, 95, 0.3));
+  border: 2px solid rgba(229, 225, 225, 0.39);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    order: 1;
+    justify-content: center;
+     
+  }
+  .navMenuContainer div{
+    height: 2px;
+    width: 30px;
+    color: #000;
+    background-color: #fff;
+    margin: 5px;
+  }
+  .newsLetterForm{
+    transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+     width: 100%;
+     max-width: 90%;
+     right: 40px;
+     margin-top: 20px;
+     position: absolute;
+     padding: 10px;
+     pointer-events: none;
+     opacity: 0;
+  }
+  .newsLetterIcons i{
+    background-color: #000fff;
+    border-radius: 50%;
+  }
+     #headerProfile{
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 0;
+        z-index: 1;
+        height: 90dvh;
+        background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(3, 3, 4, 0.755));
+        margin-top: 70px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .headerProfileContentContainer{
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+    .nusicianProfilePicContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 20px;
+        width: 40%;
+    }
+    .muscianProfilePic{
+        height: 250px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 250px;
+        
+    }
+    .muscianProfilePic img{
+        width: 220px;
+      padding: 10px;
+        border: 10px solid rgba(229, 225, 225, 0.39);
+        height: 220px;
+        border-radius: 110px;
+        object-fit: cover;
+    }
+    .musicianProfileDetailsContainer{
+        width: 70%;
+        margin-top: 90px;
+    }
+    .musicianName{
+        padding: 10px;
+        width: 90%;
+        display: flex;
+        align-items: center;
+     
+       
+    }
+    .musicianName p{
+        color: #fff;
+        font-size: 35px;
+        font-family: "poppins";
+        font-weight: 600;
+    }
+    .subDetainsContainer{
+        display: flex;
+        margin-top: 10px;
+        width: 90%;
+        align-items: center;
+        gap: 10px;
+    }
+    .musicianContryFlag{
+        padding-left: 10px;
+    }
+    .musicianContryFlag p {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 200;
+    }
+    .musicianLocation{
+        padding-left: 10px;
+    }
+    .musicianLocation p {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    .musicianCategories{
+        padding-left: 10px;
+    }
+    .musicianCategories ul li{
+        color: #fff;
+        font-size: 16px;
+        font-weight: 300;
+        list-style-type: disc;
+        margin-left: 10px;
+    }
+    .footerLinksContainer{
+      position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+        display: flex;
+        justify-content: space-around;
+        padding: 0px 0;
+        color: white;
+        z-index: 1000;
+    }
+    .footerLinksContent{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .footerLinkEdit{
+     
+      border: 1px solid #333;
+      border-radius: 30px;
+      width: 60px;
+      transition: all 0.2s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+      background: linear-gradient(to top, transparent 1%, #000000 100%);
+      height: 60px;
+    }
+    .footerLinks{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 10px;
+    }
+    .footerLinks li{
+      list-style: none;
+    }
+    .footerLinks li a{
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 900;
+      color: #fff;
+    }
+    .footerLinkTest{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .footerLinkTest p code{
+      font-weight: 700;
+      font-size: 10px;
+      font-family: "poppins", sans-serif;
+      text-transform: capitalize;
+      text-align: center;
+      letter-spacing: 1px;
+    } 
+    #section{
+      width: 100%;
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+    .sectionMainContainer{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .sectionAlbumDividerContainer{
+      width: 100%;
+      border: 1px solid #333;
+    }
+    .sectionAlbumHeaderContainer{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    .sectionAlbumHeaderContainer h1{
+      font-family: "poppins", sans-serif;
+      font-size: 30px;
+      border-bottom: 1px solid #333;
+      letter-spacing: 1px;
+    }
+    .sectionAlbumContentContainer{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .sectionAlbumContent{
+      width: 48%;
+      height: 350px;
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid #333;
+      border-radius: 10px;
+    }
+    .firstOfTheWeek{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.799)), url(images/firstoftheweek.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+    
+    }
+    .numb{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/numb.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+    
+    }
+    .partyWithMe{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/partywithme.jpeg) no-repeat;
+      background-position: center;
+      background-size: cover;
+    
+    }
+    .fireVybz{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/fireVybz.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .lighter{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/lighter.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .forever{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/KartelForeverTrilogy.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 600px;
+      width: 80%;
+    }
+    /* .forever{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/PonDiGaza.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+    } */
+    .kinstonStory{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/KingstonStory.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .sectionAlbumNameHeader{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .sectionAlbumNameHeader h2{
+      font-family: "poppins", sans-serif;
+      font-size: 17px;
+      color: #e9e9e9;
+      text-transform: capitalize;
+      letter-spacing: 1px;
+    }
+    .sectionAlbumTracksNameContainer{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .sectionAlbumName{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+    .sectionAlbumNameResponsive{
+      display: flex;
+      align-items: center;
+      width: 90%;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    
+    }
+    .sectionAlbumName li{
+     width: 40%;
+      display: flex;
+      line-height: 40px;
+      color: #f2f2f2;
+      font-weight: 500;
+      font-size: 14px;
+      justify-content: space-between;
+      text-transform: capitalize;
+      align-items: center;
+    }
+    .kingOf li{
+      line-height: 30px;
+    }
+    .ponDi li{
+      line-height: 30px;
+      font-size: 13px;
+    }
+    .GazaRever li{
+      line-height: 25px;
+      width: 50%;
+      font-size: 12px;
+      margin-top: -10px;
+      }
+      .upToDiTime li{
+        line-height: 30px;
+        width: 33%;
+        font-size: 9px;
+        margin-top: -10px;
+        }
+        .kinstonStory li{
+          line-height: 35px;
+          width: 30%;
+          font-size: 12px;
+          margin-top: -10px;
+          }
+  
+   
+     #footer{
+        background-color: #0e051d;
+        width: 100%;
+    }
+    .footerContentContainer{
+        width: 100%;
+    }
+    .footerDontMissContainer{
+        height: 100px;
+        width: 100%;
+        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .dontMiss p{
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 25px;
+        list-style-position: 1px;
+    }
+    .stayTune p{
+        color: #000;
+        text-transform: uppercase;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 25px;
+    }
+    .footerListWrapper{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+    }
+    .footerFoursSectionContainer{
+        border-right: 2px solid #f2f2f2;
+        width: 50%;
+    }
+    .fourSectionContentContainer{
+        width: 100%;
+    }
+    .footerSectionContent{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    flex-direction: column;}
+    
+    .footerLogoContainer{
+        padding: 10px;
+    }
+    .footerLogoContent{
+        background-color: red;
+        height: 100px;
+        width: 230px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footerNcb{
+        height: 90%;
+        width: 50%;
+        background-color: #f2f2f2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footerNcb p {
+        color: #000;
+        font-size: 25px;
+        font-weight: 900;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+    }
+    .footerMedia{
+        height: 100%;
+        width: 50%;
+        margin-left: -10px;
+        background-color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footerMedia p {
+        color: #f2f2f2;
+        font-size: 25px;
+        font-weight: 900;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+    }
+    .footerdescrptioText{
+        margin-top: 10px;
+        width: 90%;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    .footerdescrptioText p{
+        color: #999;
+        font-weight: 700;
+    
+    }
+    .footerEmail{
+        margin-top: 20px;
+        width: 90%;
+        padding: 10px;
+    }
+    .footerEmail p{
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+    .footerSectionHeader{
+        border-bottom: 2px solid #999;
+    }
+    .footerSectionHeader h5{
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-top: 10px;
+        font-family: "poppins";
+        color: #fff;
+    }
+    .footerUlContainer{
+        margin-top: 10px;
+        padding: 10px;
+    }
+    .footerUlContentList{
+        width: 100%;
+    }
+    .footerUlContentList li{
+        list-style: none;
+        padding:10px 0px;
+    }
+    .footerUlContentList li a{
+        text-decoration: none;
+        font-size: 18px;
+        text-transform: capitalize;
+        font-weight: 350;
+        color: #999;
+    }
+    .footerFormContainer{
+        margin-top: 10px;
+        padding: 10px;
+    }
+    #form{
+        height: 100%;
+        width: 100%;
+    }
+    .joinNesLetters{
+        width: 100%;
+      
+    }
+    .joinNesLetters p{
+        font-size: 18px;
+        font-weight: 400;
+        color: #fff;
+        border-bottom: 2px solid #000;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: capitalize;
+    
+    }
+    .joinInputForm{
+        width: 100%;
+        height: 30px;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    .joinInputForm input{
+        border-radius: 5px;
+        width: 100%;
+        height: 100%;
+        outline: none;
+        border: none;
+    }
+    .footerSocialMedia{
+        margin-top: 20px;
+        width: 100%;
+        padding: 10px;
+    }
+    .socialMediaText{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .socialMediaText p{
+        font-size: 20px;
+        font-weight: 650;
+        border-bottom: 1px solid #fff;
+        font-family: "poppins";
+        text-transform: capitalize;
+        color: #fff;
+        font-size: 16px;
+    }
+    .iconsContainer{
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .icon{
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon a i{
+        font-size: 40px;
+        font-weight: 200;
+        color: #fff;
+    }
+    
+    .lastFooterContent{
+        background-color: #09002a;
+        height: 10dvh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .lastFooterContent p{
+        color: #999;
+        font-weight: 700;
+        font-size: 14px;
+        
+    }
+  }
+  @media (min-width: 769px) and (max-width: 870.99px) {
+  .navLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    height: 100%;
+    padding: 0px 20px;
+    order: 3;
+  }
+  .navlinkListContainer{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 1, 1, 0.63)), url(images/background.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid rgba(229, 225, 225, 0.39);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    top: 10dvh;
+    height: 90dvh;
+    justify-content: center;
+    transform: translateX(100%);
+    transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+  }
+  .navlinkListContainer-checked {
+    transform: translateX(0);
+  }
+  .navLinkList{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .navMenuContainer{
+    user-select: none;
+    outline: none;
+    cursor: pointer;
+    background: linear-gradient(rgba(78, 75, 75, 0.3), rgba(107, 95, 95, 0.3));
+    border: 2px solid rgba(229, 225, 225, 0.39);
+    display: flex;  
+    order: 1;
+    transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+  }
+  .navMenuContainer div{
+    height: 2px;
+    width: 40px;
+    transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+    color: #000;
+    background-color: #fff;
+    margin: 5px;
+  }
+  @keyframes navLink {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  .toggle .nabMenuButton1 {
+    transform: rotate(45deg) translate(5px, 12px);
+  }
+  .toggle .nabMenuButton2 {
+    opacity: 0;
+  }
+  .toggle .nabMenuButton3 {
+    transform: rotate(-45deg) translate(5px, -12px);
+  }
+  
+  .ncbTetContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    height: 90%;
+    padding: 10px;
+  }
+  .ncbTetContainer label{
+    color: #000;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+  .mediaText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    height: 100%;
+    padding: 0px 10px;
+  
+  }
+  .mediaText strong{
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 0;
+  }
+  
+  .newsLetterButton button{
+    font-size: 16px;
+    padding: 10px 0px;
+    font-weight: 900;
+    transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+   
+  }
+  .navMenuContainer{
+    height: 80%;
+    width: 50px;
+    background: linear-gradient(rgba(78, 75, 75, 0.3), rgba(107, 95, 95, 0.3));
+  border: 2px solid rgba(229, 225, 225, 0.39);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    order: 1;
+    justify-content: center;
+     
+  }
+  .navMenuContainer div{
+    height: 2px;
+    width: 30px;
+    color: #000;
+    background-color: #fff;
+    margin: 5px;
+  }
+  .newsLetterForm{
+    transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+     width: 100%;
+     max-width: 90%;
+     right: 40px;
+     margin-top: 20px;
+     position: absolute;
+     padding: 10px;
+     pointer-events: none;
+     opacity: 0;
+  }
+  .newsLetterIcons i{
+    background-color: #000fff;
+    border-radius: 50%;
+  }
+     #headerProfile{
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 0;
+        z-index: 1;
+        height: 90dvh;
+        background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(3, 3, 4, 0.755));
+        margin-top: 70px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .headerProfileContentContainer{
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+    .nusicianProfilePicContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 20px;
+        width: 40%;
+    }
+    .muscianProfilePic{
+        height: 250px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 250px;
+        
+    }
+    .muscianProfilePic img{
+        width: 220px;
+      padding: 10px;
+        border: 10px solid rgba(229, 225, 225, 0.39);
+        height: 220px;
+        border-radius: 110px;
+        object-fit: cover;
+    }
+    .musicianProfileDetailsContainer{
+        width: 70%;
+        margin-top: 90px;
+    }
+    .musicianName{
+        padding: 10px;
+        width: 90%;
+        display: flex;
+        align-items: center;
+     
+       
+    }
+    .musicianName p{
+        color: #fff;
+        font-size: 35px;
+        font-family: "poppins";
+        font-weight: 600;
+    }
+    .subDetainsContainer{
+        display: flex;
+        margin-top: 10px;
+        width: 90%;
+        align-items: center;
+        gap: 10px;
+    }
+    .musicianContryFlag{
+        padding-left: 10px;
+    }
+    .musicianContryFlag p {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 200;
+    }
+    .musicianLocation{
+        padding-left: 10px;
+    }
+    .musicianLocation p {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    .musicianCategories{
+        padding-left: 10px;
+    }
+    .musicianCategories ul li{
+        color: #fff;
+        font-size: 16px;
+        font-weight: 300;
+        list-style-type: disc;
+        margin-left: 10px;
+    }
+    .footerLinksContainer{
+      position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+        display: flex;
+        justify-content: space-around;
+        padding: 0px 0;
+        color: white;
+        z-index: 1000;
+    }
+    .footerLinksContent{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .footerLinkEdit{
+     
+      border: 1px solid #333;
+      border-radius: 30px;
+      width: 60px;
+      transition: all 0.2s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+      background: linear-gradient(to top, transparent 1%, #000000 100%);
+      height: 60px;
+    }
+    .footerLinks{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 10px;
+    }
+    .footerLinks li{
+      list-style: none;
+    }
+    .footerLinks li a{
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 900;
+      color: #fff;
+    }
+    .footerLinkTest{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .footerLinkTest p code{
+      font-weight: 700;
+      font-size: 10px;
+      font-family: "poppins", sans-serif;
+      text-transform: capitalize;
+      text-align: center;
+      letter-spacing: 1px;
+    }
+   
+    #section{
+      width: 100%;
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+    .sectionMainContainer{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .sectionAlbumDividerContainer{
+      width: 100%;
+      border: 1px solid #333;
+    }
+    .sectionAlbumHeaderContainer{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    .sectionAlbumHeaderContainer h1{
+      font-family: "poppins", sans-serif;
+      font-size: 28px;
+      border-bottom: 1px solid #333;
+      letter-spacing: 1px;
+    }
+    .sectionAlbumContentContainer{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .sectionAlbumContent{
+      width: 48%;
+      height: 350px;
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid #333;
+      border-radius: 10px;
+    }
+    .firstOfTheWeek{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.799)), url(images/firstoftheweek.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+    
+    }
+    .numb{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/numb.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+    
+    }
+    .partyWithMe{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/partywithme.jpeg) no-repeat;
+      background-position: center;
+      background-size: cover;
+    
+    }
+    .fireVybz{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/fireVybz.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .lighter{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/lighter.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .forever{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/KartelForeverTrilogy.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 450px;
+      width: 80%;
+    }
+    .upToDiTime{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/Up2DiTime.webp) no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .kinstonStory{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/KingstonStory.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .sectionAlbumNameHeader{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .sectionAlbumNameHeader h2{
+      font-family: "poppins", sans-serif;
+      font-size: 17px;
+      color: #e9e9e9;
+      text-transform: capitalize;
+      letter-spacing: 1px;
+    }
+    .sectionAlbumTracksNameContainer{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .sectionAlbumName{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+    .sectionAlbumNameResponsive{
+      display: flex;
+      align-items: center;
+      width: 90%;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    
+    }
+    .sectionAlbumName li{
+     width: 40%;
+      display: flex;
+      line-height: 40px;
+      color: #f2f2f2;
+      font-weight: 500;
+      font-size: 13px;
+      justify-content: space-between;
+      text-transform: capitalize;
+      align-items: center;
+    }
+    .kingOf li{
+      line-height: 30px;
+    }
+    .ponDi li{
+      line-height: 30px;
+      font-size: 13px;
+    }
+    .GazaRever li{
+      line-height: 25px;
+      width: 30%;
+      font-size: 12px;
+      margin-top: -10px;
+      }
+      .upToDiTime li{
+        line-height: 30px;
+        width: 33%;
+        font-size: 8px;
+        margin-top: -10px;
+        }
+        .kinstonStory li{
+          line-height: 35px;
+          width: 30%;
+          font-size: 10px;
+          margin-top: -10px;
+          }
+  
+    
+    
+     #footer{
+        background-color: #0e051d;
+        width: 100%;
+    }
+    .footerContentContainer{
+        width: 100%;
+    }
+    .footerDontMissContainer{
+        height: 100px;
+        width: 100%;
+        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .dontMiss p{
+        color: #fff;
+  
+        text-transform: uppercase;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 25px;
+        list-style-position: 1px;
+    }
+    .stayTune p{
+        color: #000;
+        text-transform: uppercase;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 25px;
+    }
+    .footerListWrapper{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+    }
+    .footerFoursSectionContainer{
+        border-right: 2px solid #f2f2f2;
+        width: 50%;
+    }
+    .fourSectionContentContainer{
+        width: 100%;
+    }
+    .footerSectionContent{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    flex-direction: column;}
+    
+    .footerLogoContainer{
+        padding: 10px;
+    }
+    .footerLogoContent{
+        background-color: red;
+        height: 100px;
+        width: 230px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footerNcb{
+        height: 90%;
+        width: 50%;
+        background-color: #f2f2f2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footerNcb p {
+        color: #000;
+        font-size: 25px;
+        font-weight: 900;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+    }
+    .footerMedia{
+        height: 100%;
+        width: 50%;
+        margin-left: -10px;
+        background-color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footerMedia p {
+        color: #f2f2f2;
+        font-size: 25px;
+        font-weight: 900;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+    }
+    .footerdescrptioText{
+        margin-top: 10px;
+        width: 90%;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    .footerdescrptioText p{
+        color: #999;
+        font-weight: 700;
+    
+    }
+    .footerEmail{
+        margin-top: 20px;
+        width: 90%;
+        padding: 10px;
+    }
+    .footerEmail p{
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+    .footerSectionHeader{
+        border-bottom: 2px solid #999;
+    }
+    .footerSectionHeader h5{
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-top: 10px;
+        font-family: "poppins";
+        color: #fff;
+    }
+    .footerUlContainer{
+        margin-top: 10px;
+        padding: 10px;
+    }
+    .footerUlContentList{
+        width: 100%;
+    }
+    .footerUlContentList li{
+        list-style: none;
+        padding:10px 0px;
+    }
+    .footerUlContentList li a{
+        text-decoration: none;
+        font-size: 18px;
+        text-transform: capitalize;
+        font-weight: 350;
+        color: #999;
+    }
+    .footerFormContainer{
+        margin-top: 10px;
+        padding: 10px;
+    }
+    #form{
+        height: 100%;
+        width: 100%;
+    }
+    .joinNesLetters{
+        width: 100%;
+      
+    }
+    .joinNesLetters p{
+        font-size: 18px;
+        font-weight: 400;
+        color: #fff;
+        border-bottom: 2px solid #000;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: capitalize;
+    
+    }
+    .joinInputForm{
+        width: 100%;
+        height: 30px;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    .joinInputForm input{
+        border-radius: 5px;
+        width: 100%;
+        height: 100%;
+        outline: none;
+        border: none;
+    }
+    .footerSocialMedia{
+        margin-top: 20px;
+        width: 100%;
+        padding: 10px;
+    }
+    .socialMediaText{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .socialMediaText p{
+        font-size: 20px;
+        font-weight: 650;
+        border-bottom: 1px solid #fff;
+        font-family: "poppins";
+        text-transform: capitalize;
+        color: #fff;
+        font-size: 16px;
+    }
+    .iconsContainer{
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .icon{
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon a i{
+        font-size: 40px;
+        font-weight: 200;
+        color: #fff;
+    }
+    
+    .lastFooterContent{
+        background-color: #09002a;
+        height: 10dvh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .lastFooterContent p{
+        color: #999;
+        font-weight: 700;
+        font-size: 14px;
+        
+    }
+    
+   
+  
+  }
+  
+  @media (min-width: 555px) and (max-width: 768.99px) {
+  .navLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    height: 100%;
+    padding: 0px 20px;
+    order: 3;
+  }
+  .navlinkListContainer{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 1, 1, 0.63)), url(images/background.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid rgba(229, 225, 225, 0.39);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    top: 10dvh;
+    height: 90dvh;
+    justify-content: center;
+    transform: translateX(100%);
+    transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+  }
+  .navlinkListContainer-checked {
+    transform: translateX(0);
+  }
+  .navLinkList{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .navMenuContainer{
+    user-select: none;
+    outline: none;
+    cursor: pointer;
+    background: linear-gradient(rgba(78, 75, 75, 0.3), rgba(107, 95, 95, 0.3));
+    border: 2px solid rgba(229, 225, 225, 0.39);
+    display: flex;  
+    order: 1;
+    transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+  }
+  .navMenuContainer div{
+    height: 2px;
+    width: 40px;
+    transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+    color: #000;
+    background-color: #fff;
+    margin: 5px;
+  }
+  @keyframes navLink {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  .toggle .nabMenuButton1 {
+    transform: rotate(45deg) translate(5px, 12px);
+  }
+  .toggle .nabMenuButton2 {
+    opacity: 0;
+  }
+  .toggle .nabMenuButton3 {
+    transform: rotate(-45deg) translate(5px, -12px);
+  }
+  
+  .ncbTetContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    height: 90%;
+    padding: 10px;
+  }
+  .ncbTetContainer label{
+    color: #000;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+  .mediaText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    height: 100%;
+    padding: 0px 10px;
+  
+  }
+  .mediaText strong{
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 0;
+  }
+  
+  .newsLetterButton button{
+    font-size: 14px;
+    padding: 10px 0px;
+    font-weight: 900;
+    transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+   
+  }
+  .navMenuContainer{
+    height: 80%;
+    width: 50px;
+    background: linear-gradient(rgba(78, 75, 75, 0.3), rgba(107, 95, 95, 0.3));
+  border: 2px solid rgba(229, 225, 225, 0.39);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    order: 1;
+    justify-content: center;
+     
+  }
+  .navMenuContainer div{
+    height: 2px;
+    width: 30px;
+    color: #000;
+    background-color: #fff;
+    margin: 5px;
+  }
+  .newsLetterForm{
+    transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+     width: 100%;
+     max-width: 90%;
+     right: 40px;
+     margin-top: 20px;
+     position: absolute;
+     padding: 10px;
+     pointer-events: none;
+     opacity: 0;
+  }
+  .newsLetterIcons i{
+    background-color: #000fff;
+    border-radius: 50%;
+  }
+    #headerProfile{
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 0;
+        z-index: 1;
+        height: 90dvh;
+        background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(3, 3, 4, 0.755));
+        margin-top: 70px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .headerProfileContentContainer{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .nusicianProfilePicContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 20px;
+        width: 100%;
+    }
+    .muscianProfilePic{
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6px;
+        width: 300px;
+        
+    }
+    .muscianProfilePic img{
+        width: 100%;
+        border-radius: 6px;
+      padding: 10px;
+        border: 10px solid rgba(229, 225, 225, 0.39);
+        height: 100%;
+      
+        object-fit: cover;
+    }
+    .musicianProfileDetailsContainer{
+        width: 90%;
+        margin-top: 10px;
+    }
+    .musicianName{
+        padding: 10px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     
+       
+    }
+    .musicianName p{
+        color: #fff;
+        font-size: 35px;
+        font-family: "poppins";
+        font-weight: 600;
+    }
+    .subDetainsContainer{
+        display: flex;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .musicianContryFlag{
+        height: 20px;
+        width: 50px;
+    }
+    .musicianContryFlag img {
+        width: 100%;
+        border: 2px solid #dff;
+        height: 100%;
+        
+    }
+    .musicianLocation{
+        padding-left: 10px;
+    }
+    .musicianLocation p {
+        color: #fff;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+    .musicianCategories{
+        padding-left: 10px;
+    }
+    .musicianCategories ul li{
+        color: #fff;
+        font-size: 18px;
+        font-weight: 300;
+        list-style-type: disc;
+        margin-left: 10px;
+    }
+    .footerLinksContainer{
+      position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+        display: flex;
+        justify-content: space-around;
+        padding: 0px 0;
+        color: white;
+        z-index: 1000;
+    }
+    .footerLinksContent{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .footerLinkEdit{
+     
+      border: 1px solid #333;
+      border-radius: 30px;
+      width: 60px;
+      transition: all 0.2s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+      background: linear-gradient(to top, transparent 1%, #000000 100%);
+      height: 60px;
+    }
+    .footerLinks{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 10px;
+    }
+    .footerLinks li{
+      list-style: none;
+    }
+    .footerLinks li a{
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 900;
+      color: #fff;
+    }
+    .footerLinkTest{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .footerLinkTest p code{
+      font-weight: 700;
+      font-size: 10px;
+      font-family: "poppins", sans-serif;
+      text-transform: capitalize;
+      text-align: center;
+      letter-spacing: 1px;
+    }
+    #section{
+      width: 100%;
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+    .sectionMainContainer{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .sectionAlbumDividerContainer{
+      width: 100%;
+      border: 1px solid #333;
+    }
+    .sectionAlbumHeaderContainer{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    .sectionAlbumHeaderContainer h1{
+      font-family: "poppins", sans-serif;
+      font-size: 26px;
+      border-bottom: 1px solid #333;
+      letter-spacing: 1px;
+    }
+    .sectionAlbumContentContainer{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .sectionAlbumContent{
+      width: 48%;
+      height: 350px;
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid #333;
+      border-radius: 10px;
+    }
+    .firstOfTheWeek{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.799)), url(images/firstoftheweek.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+    
+    }
+    .numb{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/numb.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+    
+    }
+    .partyWithMe{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/partywithme.jpeg) no-repeat;
+      background-position: center;
+      background-size: cover;
+    
+    }
+    .fireVybz{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/fireVybz.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .lighter{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/lighter.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .forever{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/KartelForeverTrilogy.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+      width: 80%;
+      height: 450px;
+    }
+    .upToDiTime{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/Up2DiTime.webp) no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .kinstonStory{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/KingstonStory.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .sectionAlbumNameHeader{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .sectionAlbumNameHeader h2{
+      font-family: "poppins", sans-serif;
+      font-size: 12px;
+      color: #e9e9e9;
+      text-transform: capitalize;
+      letter-spacing: 1px;
+    }
+    .sectionAlbumTracksNameContainer{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .sectionAlbumName{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+    .sectionAlbumNameResponsive{
+      display: flex;
+      align-items: center;
+      width: 90%;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    
+    }
+    .sectionAlbumName li{
+     width: 100%;
+      display: flex;
+      line-height: 30px;
+      color: #f2f2f2;
+      font-weight: 500;
+      font-size: 12px;
+      justify-content: space-between;
+      text-transform: capitalize;
+      align-items: center;
+    }
+    .kingOf li{
+      line-height: 20px;
+    }
+    .ponDi li{
+      line-height: 20px;
+      font-size: 12px;
+    }
+    .GazaRever li{
+      line-height: 25px;
+      width: 30%;
+      font-size: 9px;
+      margin-top: -10px;
+      }
+    .upToDiTime li{
+      line-height: 25px;
+      width: 45%;
+      font-size: 9px;
+      margin-top: -10px;
+      }
+      .kinstonStory li{
+        line-height: 35px;
+        width: 50%;
+        font-size: 10px;
+        margin-top: -10px;
+        }
+      
+    #footer{
+        background-color: #0e051d;
+        width: 100%;
+    }
+    .footerContentContainer{
+        width: 100%;
+    }
+    .footerDontMissContainer{
+        height: 100px;
+        width: 100%;
+        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .dontMiss p{
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 25px;
+        list-style-position: 1px;
+    }
+    .stayTune p{
+        color: #000;
+        text-transform: uppercase;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 25px;
+    }
+    .footerListWrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        
+    }
+    .footerFoursSectionContainer{
+        border-right: none;
+        width: 100%;
+    }
+    .fourSectionContentContainer{
+        width: 100%;
+    }
+    .footerSectionContent{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    flex-direction: column;
+  }
+    
+    .footerLogoContainer{
+        padding: 10px;
+    }
+    .footerLogoContent{
+        background-color: red;
+        height: 100px;
+        width: 230px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footerNcb{
+        height: 90%;
+        width: 50%;
+        background-color: #f2f2f2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footerNcb p {
+        color: #000;
+        font-size: 25px;
+        font-weight: 900;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+    }
+    .footerMedia{
+        height: 100%;
+        width: 50%;
+        margin-left: -10px;
+        background-color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footerMedia p {
+        color: #f2f2f2;
+        font-size: 25px;
+        font-weight: 900;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+    }
+    .footerdescrptioText{
+        margin-top: 10px;
+        width: 90%;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    .footerdescrptioText p{
+        color: #999;
+        font-weight: 700;
+    
+    }
+    .footerEmail{
+        margin-top: 20px;
+        width: 90%;
+        padding: 10px;
+    }
+    .footerEmail p{
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+    .footerSectionHeader{
+        border-bottom: 2px solid #999;
+    }
+    .footerSectionHeader h5{
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-top: 10px;
+        font-family: "poppins";
+        color: #fff;
+    }
+    .footerUlContainer{
+        margin-top: 10px;
+        padding: 10px;
+    }
+    .footerUlContentList{
+        width: 100%;
+    }
+    .footerUlContentList li{
+        list-style: none;
+        padding:10px 0px;
+    }
+    .footerUlContentList li a{
+        text-decoration: none;
+        font-size: 18px;
+        text-transform: capitalize;
+        font-weight: 350;
+        color: #999;
+    }
+    .footerFormContainer{
+        margin-top: 10px;
+        padding: 10px;
+    }
+    #form{
+        height: 100%;
+        width: 100%;
+    }
+    .joinNesLetters{
+        width: 100%;
+      
+    }
+    .joinNesLetters p{
+        font-size: 18px;
+        font-weight: 400;
+        color: #fff;
+        border-bottom: 2px solid #000;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: capitalize;
+    
+    }
+    .joinInputForm{
+        width: 100%;
+        height: 30px;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    .joinInputForm input{
+        border-radius: 5px;
+        width: 100%;
+        height: 100%;
+        outline: none;
+        border: none;
+    }
+    .footerSocialMedia{
+        margin-top: 20px;
+        width: 100%;
+        padding: 10px;
+    }
+    .socialMediaText{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .socialMediaText p{
+        font-size: 20px;
+        font-weight: 650;
+        border-bottom: 1px solid #fff;
+        font-family: "poppins";
+        text-transform: capitalize;
+        color: #fff;
+        font-size: 16px;
+    }
+    .iconsContainer{
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .icon{
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon a i{
+        font-size: 40px;
+        font-weight: 200;
+        color: #fff;
+    }
+    
+    .lastFooterContent{
+        background-color: #09002a;
+        height: 10dvh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .lastFooterContent p{
+        color: #999;
+        font-size: 11px;
+        font-weight: 900;
+        
+    }
+    .lastFooterContent p a{
+        font-family: serif;
+       color: blue;
+        
+    }
+    
+  }
+  @media (min-width: 479px) and (max-width: 556.99px) {
+  .navLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    height: 100%;
+    padding: 0px 20px;
+    order: 3;
+  }
+  .navlinkListContainer{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 1, 1, 0.63)), url(images/background.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid rgba(229, 225, 225, 0.39);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    top: 10dvh;
+    height: 90dvh;
+    justify-content: center;
+    transform: translateX(100%);
+    transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+  }
+  .navlinkListContainer-checked {
+    transform: translateX(0);
+  }
+  .navLinkList{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .navMenuContainer{
+    user-select: none;
+    outline: none;
+    cursor: pointer;
+    background: linear-gradient(rgba(78, 75, 75, 0.3), rgba(107, 95, 95, 0.3));
+    border: 2px solid rgba(229, 225, 225, 0.39);
+    display: flex;  
+    order: 1;
+    transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+  }
+  .navMenuContainer div{
+    height: 2px;
+    width: 40px;
+    transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+    color: #000;
+    background-color: #fff;
+    margin: 5px;
+  }
+  @keyframes navLink {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  .toggle .nabMenuButton1 {
+    transform: rotate(45deg) translate(5px, 12px);
+  }
+  .toggle .nabMenuButton2 {
+    opacity: 0;
+  }
+  .toggle .nabMenuButton3 {
+    transform: rotate(-45deg) translate(5px, -12px);
+  }
+  
+  .ncbTetContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    height: 90%;
+    padding: 10px;
+  }
+  .ncbTetContainer label{
+    color: #000;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+  .mediaText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    height: 100%;
+    padding: 0px 10px;
+  
+  }
+  .mediaText strong{
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 0;
+  }
+  
+  .newsLetterButton button{
+    font-size: 12px;
+    padding: 10px 0px;
+    font-weight: 900;
+    transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+   
+  }
+  .navMenuContainer{
+    height: 80%;
+    width: 50px;
+    background: linear-gradient(rgba(78, 75, 75, 0.3), rgba(107, 95, 95, 0.3));
+  border: 2px solid rgba(229, 225, 225, 0.39);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    order: 1;
+    justify-content: center;
+     
+  }
+  .navMenuContainer div{
+    height: 2px;
+    width: 30px;
+    color: #000;
+    background-color: #fff;
+    margin: 5px;
+  }
+  .newsLetterForm{
+    transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+     width: 100%;
+     max-width: 90%;
+     right: 40px;
+     margin-top: 20px;
+     position: absolute;
+     padding: 10px;
+     pointer-events: none;
+     opacity: 0;
+  }
+  .newsLetterIcons i{
+    background-color: #000fff;
+    border-radius: 50%;
+  }
+    #headerProfile{
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 0;
+        z-index: 1;
+        height: 90dvh;
+        background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(3, 3, 4, 0.755));
+        margin-top: 70px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .headerProfileContentContainer{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .nusicianProfilePicContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 20px;
+        width: 100%;
+    }
+    .muscianProfilePic{
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6px;
+        width: 300px;
+        
+    }
+    .muscianProfilePic img{
+        width: 100%;
+        border-radius: 6px;
+      padding: 10px;
+        border: 10px solid rgba(229, 225, 225, 0.39);
+        height: 100%;
+      
+        object-fit: cover;
+    }
+    .musicianProfileDetailsContainer{
+        width: 90%;
+        margin-top: 10px;
+    }
+    .musicianName{
+        padding: 10px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     
+       
+    }
+    .musicianName p{
+        color: #fff;
+        font-size: 35px;
+        font-family: "poppins";
+        font-weight: 600;
+    }
+    .subDetainsContainer{
+        display: flex;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .musicianContryFlag{
+        height: 20px;
+        width: 50px;
+    }
+    .musicianContryFlag img {
+        width: 100%;
+        border: 2px solid #dff;
+        height: 100%;
+        
+    }
+    .musicianLocation{
+        padding-left: 10px;
+    }
+    .musicianLocation p {
+        color: #fff;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+    .musicianCategories{
+        padding-left: 10px;
+    }
+    .musicianCategories ul li{
+        color: #fff;
+        font-size: 18px;
+        font-weight: 300;
+        list-style-type: disc;
+        margin-left: 10px;
+    }
+    .footerLinksContainer{
+      position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+        display: flex;
+        justify-content: space-around;
+        padding: 0px 0;
+        color: white;
+        z-index: 1000;
+    }
+    .footerLinksContent{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .footerLinkEdit{
+     
+      border: 1px solid #333;
+      border-radius: 30px;
+      width: 60px;
+      transition: all 0.2s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+      background: linear-gradient(to top, transparent 1%, #000000 100%);
+      height: 60px;
+    }
+    .footerLinks{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 10px;
+    }
+    .footerLinks li{
+      list-style: none;
+    }
+    .footerLinks li a{
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 900;
+      color: #fff;
+    }
+    .footerLinkTest{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .footerLinkTest p code{
+      font-weight: 700;
+      font-size: 10px;
+      font-family: "poppins", sans-serif;
+      text-transform: capitalize;
+      text-align: center;
+      letter-spacing: 1px;
+    }
+    #section{
+      width: 100%;
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+    .sectionMainContainer{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .sectionAlbumDividerContainer{
+      width: 100%;
+      border: 1px solid #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .sectionAlbumHeaderContainer{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    .sectionAlbumHeaderContainer h1{
+      font-family: "poppins", sans-serif;
+      font-size: 28px;
+      border-bottom: 1px solid #333;
+      letter-spacing: 1px;
+    }
+    .sectionAlbumContentContainer{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .sectionAlbumContent{
+      width: 100%;
+      height: 350px;
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid #333;
+      border-radius: 10px;
+    }
+    .firstOfTheWeek{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.799)), url(images/firstoftheweek.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+    
+    }
+    .numb{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/numb.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+    
+    }
+    .partyWithMe{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/partywithme.jpeg) no-repeat;
+      background-position: center;
+      background-size: cover;
+    
+    }
+    .fireVybz{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/fireVybz.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .lighter{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/lighter.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .forever{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/KartelForeverTrilogy.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 500px;
+    }
+    .upToDiTime{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/Up2DiTime.webp) no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .kinstonStory{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/KingstonStory.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .sectionAlbumNameHeader{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .sectionAlbumNameHeader h2{
+      font-family: "poppins", sans-serif;
+      font-size: 18px;
+      color: #e9e9e9;
+      text-transform: capitalize;
+      letter-spacing: 1px;
+    }
+    .sectionAlbumTracksNameContainer{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .sectionAlbumName{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+    .sectionAlbumNameResponsive{
+      display: flex;
+      align-items: center;
+      width: 90%;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    
+    }
+    .sectionAlbumName li{
+     width: 100%;
+      display: flex;
+      line-height: 30px;
+      color: #f2f2f2;
+      font-weight: 500;
+      font-size: 14px;
+      justify-content: space-between;
+      text-transform: capitalize;
+      align-items: center;
+    }
+    .kingOf li{
+      line-height: 28px;
+      margin-top: -10px;
+    }
+    .ponDi li{
+      line-height: 20px;
+      font-size: 12px;
+    }
+    .GazaRever li{
+      line-height: 25px;
+      width: 30%;
+      font-size: 9px;
+      margin-top: -10px;
+      }
+      .upToDiTime li{
+        line-height: 25px;
+        width: 45%;
+        font-size: 10px;
+        margin-top: -10px;
+        }
+        .kinstonStory li{
+          line-height: 35px;
+          width: 50%;
+          font-size: 10px;
+          margin-top: -10px;
+          }
+    #footer{
+        background-color: #0e051d;
+        width: 100%;
+    }
+    .footerContentContainer{
+        width: 100%;
+    }
+    .footerDontMissContainer{
+        height: 100px;
+        width: 100%;
+        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .dontMiss p{
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 25px;
+        list-style-position: 1px;
+    }
+    .stayTune p{
+        color: #000;
+        text-transform: uppercase;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 25px;
+    }
+    .footerListWrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        
+    }
+    .footerFoursSectionContainer{
+        border-right: none;
+        width: 100%;
+    }
+    .fourSectionContentContainer{
+        width: 100%;
+    }
+    .footerSectionContent{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    flex-direction: column;
+  }
+    
+    .footerLogoContainer{
+        padding: 10px;
+    }
+    .footerLogoContent{
+        background-color: red;
+        height: 100px;
+        width: 230px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footerNcb{
+        height: 90%;
+        width: 50%;
+        background-color: #f2f2f2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footerNcb p {
+        color: #000;
+        font-size: 25px;
+        font-weight: 900;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+    }
+    .footerMedia{
+        height: 100%;
+        width: 50%;
+        margin-left: -10px;
+        background-color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footerMedia p {
+        color: #f2f2f2;
+        font-size: 25px;
+        font-weight: 900;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+    }
+    .footerdescrptioText{
+        margin-top: 10px;
+        width: 90%;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    .footerdescrptioText p{
+        color: #999;
+        font-weight: 700;
+    
+    }
+    .footerEmail{
+        margin-top: 20px;
+        width: 90%;
+        padding: 10px;
+    }
+    .footerEmail p{
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+    .footerSectionHeader{
+        border-bottom: 2px solid #999;
+    }
+    .footerSectionHeader h5{
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-top: 10px;
+        font-family: "poppins";
+        color: #fff;
+    }
+    .footerUlContainer{
+        margin-top: 10px;
+        padding: 10px;
+    }
+    .footerUlContentList{
+        width: 100%;
+    }
+    .footerUlContentList li{
+        list-style: none;
+        padding:10px 0px;
+    }
+    .footerUlContentList li a{
+        text-decoration: none;
+        font-size: 18px;
+        text-transform: capitalize;
+        font-weight: 350;
+        color: #999;
+    }
+    .footerFormContainer{
+        margin-top: 10px;
+        padding: 10px;
+    }
+    #form{
+        height: 100%;
+        width: 100%;
+    }
+    .joinNesLetters{
+        width: 100%;
+      
+    }
+    .joinNesLetters p{
+        font-size: 18px;
+        font-weight: 400;
+        color: #fff;
+        border-bottom: 2px solid #000;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: capitalize;
+    
+    }
+    .joinInputForm{
+        width: 100%;
+        height: 30px;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    .joinInputForm input{
+        border-radius: 5px;
+        width: 100%;
+        height: 100%;
+        outline: none;
+        border: none;
+    }
+    .footerSocialMedia{
+        margin-top: 20px;
+        width: 100%;
+        padding: 10px;
+    }
+    .socialMediaText{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .socialMediaText p{
+        font-size: 20px;
+        font-weight: 650;
+        border-bottom: 1px solid #fff;
+        font-family: "poppins";
+        text-transform: capitalize;
+        color: #fff;
+        font-size: 16px;
+    }
+    .iconsContainer{
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .icon{
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon a i{
+        font-size: 40px;
+        font-weight: 200;
+        color: #fff;
+    }
+    
+    .lastFooterContent{
+        background-color: #09002a;
+        height: 10dvh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .lastFooterContent p{
+        color: #999;
+        font-size: 11px;
+        font-weight: 900;
+        
+    }
+    .lastFooterContent p a{
+        font-family: serif;
+       color: blue;
+        
+    }
+    
+  }
+  @media (min-width: 432px) and (max-width: 480.99px) {
+  
+    .navLogo{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: red;
+      height: 100%;
+      padding: 0px 20px;
+      order: 3;
+  }
+  .navlinkListContainer{
+      background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 1, 1, 0.63)), url(images/background.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+      border: 2px solid rgba(229, 225, 225, 0.39);
+      display: flex;
+      align-items: center;
+      position: absolute;
+      width: 100%;
+      top: 10dvh;
+      height: 90dvh;
+      justify-content: center;
+      transform: translateX(100%);
+      transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+  }
+  .navlinkListContainer-checked {
+      transform: translateX(0);
+  }
+  .navLinkList{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+      gap: 10px;
+  }
+  .navMenuContainer{
+      user-select: none;
+      outline: none;
+      cursor: pointer;
+      background: linear-gradient(rgba(78, 75, 75, 0.3), rgba(107, 95, 95, 0.3));
+      border: 2px solid rgba(229, 225, 225, 0.39);
+      display: flex;  
+      order: 1;
+      transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+  }
+  .navMenuContainer div{
+      height: 2px;
+      width: 40px;
+      transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+      color: #000;
+      background-color: #fff;
+      margin: 5px;
+  }
+  @keyframes navLink {
+      from {
+        transform: translateX(100%);
+        opacity: 0;
+      }
+      to {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+    .toggle .nabMenuButton1 {
+      transform: rotate(45deg) translate(5px, 12px);
+    }
+    .toggle .nabMenuButton2 {
+      opacity: 0;
+    }
+    .toggle .nabMenuButton3 {
+      transform: rotate(-45deg) translate(5px, -12px);
+    }
+  
+  .ncbTetContainer{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #fff;
+      height: 90%;
+      padding: 10px;
+  }
+  .ncbTetContainer label{
+      color: #000;
+      font-size: 18px;
+      font-weight: 900;
+      text-transform: uppercase;
+      font-weight: 800;
+  }
+  .mediaText{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #000000;
+      height: 100%;
+      padding: 0px 10px;
+  
+  }
+  .mediaText strong{
+      color: #ffffff;
+      font-size: 18px;
+      text-transform: uppercase;
+      font-weight: 800;
+      padding: 0;
+  }
+  
+  .newsLetterButton button{
+      font-size: 8px;
+      padding: 10px 0px;
+      font-weight: 900;
+      transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+     
+  }
+  .navMenuContainer{
+      height: 80%;
+      width: 50px;
+      background: linear-gradient(rgba(78, 75, 75, 0.3), rgba(107, 95, 95, 0.3));
+  border: 2px solid rgba(229, 225, 225, 0.39);
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      order: 1;
+      justify-content: center;
+       
+  }
+  .navMenuContainer div{
+      height: 2px;
+      width: 30px;
+      color: #000;
+      background-color: #fff;
+      margin: 5px;
+  }
+  .newsLetterForm{
+      transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+       width: 100%;
+       max-width: 90%;
+       right: 40px;
+       margin-top: 20px;
+       position: absolute;
+       padding: 10px;
+       pointer-events: none;
+       opacity: 0;
+   }
+   .newsLetterIcons i{
+      background-color: #000fff;
+      border-radius: 50%;
+  }
+    #headerProfile{
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 0;
+        z-index: 1;
+        height: 90dvh;
+        background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(3, 3, 4, 0.755));
+        margin-top: 70px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .headerProfileContentContainer{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .nusicianProfilePicContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 20px;
+        width: 100%;
+    }
+    .muscianProfilePic{
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6px;
+        width: 300px;
+        
+    }
+    .muscianProfilePic img{
+        width: 100%;
+        border-radius: 6px;
+      padding: 10px;
+        border: 10px solid rgba(229, 225, 225, 0.39);
+        height: 100%;
+      
+        object-fit: cover;
+    }
+    .musicianProfileDetailsContainer{
+        width: 90%;
+        margin-top: 10px;
+    }
+    .musicianName{
+        padding: 10px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     
+       
+    }
+    .musicianName p{
+        color: #fff;
+        font-size: 35px;
+        font-family: "poppins";
+        font-weight: 600;
+    }
+    .subDetainsContainer{
+        display: flex;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .musicianContryFlag{
+        padding-left: 10px;
+    }
+    .musicianContryFlag p {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 200;
+    }
+    .musicianLocation{
+        padding-left: 10px;
+    }
+    .musicianLocation p {
+        color: #fff;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+    .musicianCategories{
+        padding-left: 10px;
+    }
+    .musicianCategories ul li{
+        color: #fff;
+        font-size: 12px;
+        font-weight: 600;
+        list-style-type: disc;
+        margin-left: 10px;
+    }
+    .footerLinksContainer{
+      position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+        display: flex;
+        justify-content: space-around;
+        padding: 0px 0;
+        color: white;
+        z-index: 1000;
+    }
+    .footerLinksContent{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .footerLinkEdit{
+     
+      border: 1px solid #333;
+      border-radius: 30px;
+      width: 60px;
+      transition: all 0.2s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+      background: linear-gradient(to top, transparent 1%, #000000 100%);
+      height: 60px;
+    }
+    .footerLinks{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 10px;
+    }
+    .footerLinks li{
+      list-style: none;
+    }
+    .footerLinks li a{
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 900;
+      color: #fff;
+    }
+    .footerLinkTest{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .footerLinkTest p code{
+      font-weight: 700;
+      font-size: 10px;
+      font-family: "poppins", sans-serif;
+      text-transform: capitalize;
+      text-align: center;
+      letter-spacing: 1px;
+    }
+    #section{
+      width: 100%;
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+    .sectionMainContainer{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .sectionAlbumDividerContainer{
+      width: 100%;
+      border: 1px solid #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .sectionAlbumHeaderContainer{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    .sectionAlbumHeaderContainer h1{
+      font-family: "poppins", sans-serif;
+      font-size: 28px;
+      border-bottom: 1px solid #333;
+      letter-spacing: 1px;
+    }
+    .sectionAlbumContentContainer{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .sectionAlbumContent{
+      width: 100%;
+      height: 350px;
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid #333;
+      border-radius: 10px;
+    }
+    .firstOfTheWeek{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.799)), url(images/firstoftheweek.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+    
+    }
+    .numb{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/numb.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+    
+    }
+    .partyWithMe{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/partywithme.jpeg) no-repeat;
+      background-position: center;
+      background-size: cover;
+    
+    }
+    .fireVybz{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/fireVybz.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .lighter{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/lighter.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .forever{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/KartelForeverTrilogy.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: 500px;
+    }
+    .upToDiTime{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/Up2DiTime.webp) no-repeat;
+      background-position: center;
+      background-size: cover;
+  
+    }
+    .kinstonStory{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/KingstonStory.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+  
+    }
+    .sectionAlbumNameHeader{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .sectionAlbumNameHeader h2{
+      font-family: "poppins", sans-serif;
+      font-size: 18px;
+      color: #e9e9e9;
+      text-transform: capitalize;
+      letter-spacing: 1px;
+    }
+    .sectionAlbumTracksNameContainer{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .sectionAlbumName{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+    .sectionAlbumNameResponsive{
+      display: flex;
+      align-items: center;
+      width: 90%;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    
+    }
+    .sectionAlbumName li{
+     width: 100%;
+      display: flex;
+      line-height: 30px;
+      color: #f2f2f2;
+      font-weight: 500;
+      font-size: 13px;
+      justify-content: space-between;
+      text-transform: capitalize;
+      align-items: center;
+    }
+    .kingOf li{
+      line-height: 28px;
+      margin-top: -10px;
+    }
+    .ponDi li{
+      line-height: 20px;
+      font-size: 11px;
+    }
+    .GazaRever li{
+      line-height: 23px;
+      width: 35%;
+      font-size: 9px;
+      margin-top: -10px;
+      }
+      .upToDiTime li{
+        line-height: 25px;
+        width: 45%;
+        font-size: 10px;
+        margin-top: -10px;
+        }
+        .kinstonStory li{
+          line-height: 35px;
+          width: 50%;
+          font-size: 10px;
+          margin-top: -10px;
+          }
+    
+    #footer{
+      background-color: #0e051d;
+      width: 100%;
+  }
+  .footerContentContainer{
+      width: 100%;
+  }
+  .footerDontMissContainer{
+      height: 100px;
+      width: 100%;
+      background-color: red;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+  }
+  .dontMiss p{
+      color: #fff;
+      text-transform: uppercase;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 25px;
+      list-style-position: 1px;
+  }
+  .stayTune p{
+      color: #000;
+      text-transform: uppercase;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 25px;
+  }
+  .footerListWrapper{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      
+  }
+  .footerFoursSectionContainer{
+      border-right: none;
+      width: 100%;
+  }
+  .fourSectionContentContainer{
+      width: 100%;
+  }
+  .footerSectionContent{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  flex-direction: column;
+  }
+  
+  .footerLogoContainer{
+      padding: 10px;
+  }
+  .footerLogoContent{
+      background-color: red;
+      height: 100px;
+      width: 230px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .footerNcb{
+      height: 90%;
+      width: 50%;
+      background-color: #f2f2f2;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .footerNcb p {
+      color: #000;
+      font-size: 25px;
+      font-weight: 900;
+      font-family: Arial, Helvetica, sans-serif;
+      text-transform: uppercase;
+  }
+  .footerMedia{
+      height: 100%;
+      width: 50%;
+      margin-left: -10px;
+      background-color: #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .footerMedia p {
+      color: #f2f2f2;
+      font-size: 25px;
+      font-weight: 900;
+      font-family: Arial, Helvetica, sans-serif;
+      text-transform: uppercase;
+  }
+  .footerdescrptioText{
+      margin-top: 10px;
+      width: 90%;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+  }
+  .footerdescrptioText p{
+      color: #999;
+      font-weight: 700;
+  
+  }
+  .footerEmail{
+      margin-top: 20px;
+      width: 90%;
+      padding: 10px;
+  }
+  .footerEmail p{
+      color: #fff;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 400;
+      letter-spacing: 1px;
+  }
+  .footerSectionHeader{
+      border-bottom: 2px solid #999;
+  }
+  .footerSectionHeader h5{
+      font-size: 20px;
+      text-transform: uppercase;
+      margin-top: 10px;
+      font-family: "poppins";
+      color: #fff;
+  }
+  .footerUlContainer{
+      margin-top: 10px;
+      padding: 10px;
+  }
+  .footerUlContentList{
+      width: 100%;
+  }
+  .footerUlContentList li{
+      list-style: none;
+      padding:10px 0px;
+  }
+  .footerUlContentList li a{
+      text-decoration: none;
+      font-size: 18px;
+      text-transform: capitalize;
+      font-weight: 350;
+      color: #999;
+  }
+  .footerFormContainer{
+      margin-top: 10px;
+      padding: 10px;
+  }
+  #form{
+      height: 100%;
+      width: 100%;
+  }
+  .joinNesLetters{
+      width: 100%;
+    
+  }
+  .joinNesLetters p{
+      font-size: 18px;
+      font-weight: 400;
+      color: #fff;
+      border-bottom: 2px solid #000;
+      font-family: Arial, Helvetica, sans-serif;
+      text-transform: capitalize;
+  
+  }
+  .joinInputForm{
+      width: 100%;
+      height: 30px;
+      margin-top: 20px;
+      border-radius: 5px;
+  }
+  .joinInputForm input{
+      border-radius: 5px;
+      width: 100%;
+      height: 100%;
+      outline: none;
+      border: none;
+  }
+  .footerSocialMedia{
+      margin-top: 20px;
+      width: 100%;
+      padding: 10px;
+  }
+  .socialMediaText{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .socialMediaText p{
+      font-size: 20px;
+      font-weight: 650;
+      border-bottom: 1px solid #fff;
+      font-family: "poppins";
+      text-transform: capitalize;
+      color: #fff;
+      font-size: 16px;
+  }
+  .iconsContainer{
+      display: flex;
+      padding: 10px;
+      justify-content: center;
+      margin-top: 20px;
+  }
+  .icon{
+      width: 100%;
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .icon a i{
+      font-size: 40px;
+      font-weight: 200;
+      color: #fff;
+  }
+  
+  .lastFooterContent{
+      background-color: #09002a;
+      height: 10dvh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .lastFooterContent p{
+      color: #999;
+      font-size: 11px;
+      font-weight: 900;
+      
+  }
+  .lastFooterContent p a{
+      font-family: serif;
+     color: blue;
+      
+  }
+    
+  }
+  @media (min-width: 394px) and (max-width: 433.99px) {
+  
+    .navLogo{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: red;
+      height: 100%;
+      padding: 0px 20px;
+      order: 3;
+  }
+  .navlinkListContainer{
+      background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 1, 1, 0.63)), url(images/background.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+      border: 2px solid rgba(229, 225, 225, 0.39);
+      display: flex;
+      align-items: center;
+      position: absolute;
+      width: 100%;
+      top: 10dvh;
+      height: 90dvh;
+      justify-content: center;
+      transform: translateX(100%);
+      transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+  }
+  .navlinkListContainer-checked {
+      transform: translateX(0);
+  }
+  .navLinkList{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+      gap: 10px;
+  }
+  .navMenuContainer{
+      user-select: none;
+      outline: none;
+      cursor: pointer;
+      background: linear-gradient(rgba(78, 75, 75, 0.3), rgba(107, 95, 95, 0.3));
+      border: 2px solid rgba(229, 225, 225, 0.39);
+      display: flex;  
+      order: 1;
+      transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+  }
+  .navMenuContainer div{
+      height: 2px;
+      width: 40px;
+      transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+      color: #000;
+      background-color: #fff;
+      margin: 5px;
+  }
+  @keyframes navLink {
+      from {
+        transform: translateX(100%);
+        opacity: 0;
+      }
+      to {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+    .toggle .nabMenuButton1 {
+      transform: rotate(45deg) translate(5px, 12px);
+    }
+    .toggle .nabMenuButton2 {
+      opacity: 0;
+    }
+    .toggle .nabMenuButton3 {
+      transform: rotate(-45deg) translate(5px, -12px);
+    }
+  
+  .ncbTetContainer{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #fff;
+      height: 90%;
+      padding: 10px;
+  }
+  .ncbTetContainer label{
+      color: #000;
+      font-size: 18px;
+      font-weight: 900;
+      text-transform: uppercase;
+      font-weight: 800;
+  }
+  .mediaText{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #000000;
+      height: 100%;
+      padding: 0px 10px;
+  
+  }
+  .mediaText strong{
+      color: #ffffff;
+      font-size: 18px;
+      text-transform: uppercase;
+      font-weight: 800;
+      padding: 0;
+  }
+  
+  .newsLetterButton button{
+      font-size: 8px;
+      padding: 10px 0px;
+      font-weight: 900;
+      transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+     
+  }
+  .navMenuContainer{
+      height: 80%;
+      width: 50px;
+      background: linear-gradient(rgba(78, 75, 75, 0.3), rgba(107, 95, 95, 0.3));
+  border: 2px solid rgba(229, 225, 225, 0.39);
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      order: 1;
+      justify-content: center;
+       
+  }
+  .navMenuContainer div{
+      height: 2px;
+      width: 30px;
+      color: #000;
+      background-color: #fff;
+      margin: 5px;
+  }
+  .newsLetterForm{
+      transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+       width: 100%;
+       max-width: 90%;
+       right: 40px;
+       margin-top: 20px;
+       position: absolute;
+       padding: 10px;
+       pointer-events: none;
+       opacity: 0;
+   }
+   .newsLetterIcons i{
+      background-color: #000fff;
+      border-radius: 50%;
+  }
+    #headerProfile{
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 0;
+        z-index: 1;
+        height: 90dvh;
+        background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(3, 3, 4, 0.755));
+        margin-top: 70px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .headerProfileContentContainer{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .nusicianProfilePicContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 20px;
+        width: 100%;
+    }
+    .muscianProfilePic{
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6px;
+        width: 300px;
+        
+    }
+    .muscianProfilePic img{
+        width: 100%;
+        border-radius: 6px;
+      padding: 10px;
+        border: 10px solid rgba(229, 225, 225, 0.39);
+        height: 100%;
+      
+        object-fit: cover;
+    }
+    .musicianProfileDetailsContainer{
+        width: 90%;
+        margin-top: 10px;
+    }
+    .musicianName{
+        padding: 10px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     
+       
+    }
+    .musicianName p{
+        color: #fff;
+        font-size: 35px;
+        font-family: "poppins";
+        font-weight: 600;
+    }
+    .subDetainsContainer{
+        display: flex;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .musicianContryFlag{
+        padding-left: 10px;
+    }
+    .musicianContryFlag p {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 200;
+    }
+    .musicianLocation{
+        padding-left: 10px;
+    }
+    .musicianLocation p {
+        color: #fff;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+    .musicianCategories{
+        padding-left: 10px;
+    }
+    .musicianCategories ul li{
+        color: #fff;
+        font-size: 12px;
+        font-weight: 600;
+        list-style-type: disc;
+        margin-left: 10px;
+    }
+    .footerLinksContainer{
+      position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+        display: flex;
+        justify-content: space-around;
+        padding: 0px 0;
+        color: white;
+        z-index: 1000;
+    }
+    .footerLinksContent{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .footerLinkEdit{
+     
+      border: 1px solid #333;
+      border-radius: 30px;
+      width: 60px;
+      transition: all 0.2s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+      background: linear-gradient(to top, transparent 1%, #000000 100%);
+      height: 60px;
+    }
+    .footerLinks{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 10px;
+    }
+    .footerLinks li{
+      list-style: none;
+    }
+    .footerLinks li a{
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 900;
+      color: #fff;
+    }
+    .footerLinkTest{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .footerLinkTest p code{
+      font-weight: 700;
+      font-size: 10px;
+      font-family: "poppins", sans-serif;
+      text-transform: capitalize;
+      text-align: center;
+      letter-spacing: 1px;
+    }
+    #section{
+      width: 100%;
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+    .sectionMainContainer{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .sectionAlbumDividerContainer{
+      width: 100%;
+      border: 1px solid #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .sectionAlbumHeaderContainer{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    .sectionAlbumHeaderContainer h1{
+      font-family: "poppins", sans-serif;
+      font-size: 28px;
+      border-bottom: 1px solid #333;
+      letter-spacing: 1px;
+    }
+    .sectionAlbumContentContainer{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .sectionAlbumContent{
+      width: 100%;
+      height: 350px;
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid #333;
+      border-radius: 10px;
+    }
+    .firstOfTheWeek{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.799)), url(images/firstoftheweek.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+    
+    }
+    .numb{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/numb.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+    
+    }
+    .partyWithMe{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/partywithme.jpeg) no-repeat;
+      background-position: center;
+      background-size: cover;
+    
+    }
+    .fireVybz{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/fireVybz.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .lighter{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/lighter.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .forever{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/KartelForeverTrilogy.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 500px;
+    }
+    .upToDiTime{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/Up2DiTime.webp) no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .kinstonStory{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/KingstonStory.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .sectionAlbumNameHeader{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .sectionAlbumNameHeader h2{
+      font-family: "poppins", sans-serif;
+      font-size: 18px;
+      color: #e9e9e9;
+      text-transform: capitalize;
+      letter-spacing: 1px;
+    }
+    .sectionAlbumTracksNameContainer{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .sectionAlbumName{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+    .sectionAlbumNameResponsive{
+      display: flex;
+      align-items: center;
+      width: 90%;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    
+    }
+    .sectionAlbumName li{
+     width: 100%;
+      display: flex;
+      line-height: 30px;
+      color: #f2f2f2;
+      font-weight: 500;
+      font-size: 14px;
+      justify-content: space-between;
+      text-transform: capitalize;
+      align-items: center;
+    }
+    .kingOf li{
+      line-height: 28px;
+      margin-top: -10px;
+    }
+    .ponDi li{
+      line-height: 20px;
+      font-size: 11px;
+    }
+    .GazaRever li{
+      line-height: 22px;
+      width: 40%;
+      font-size: 9px;
+      margin-top: -10px;
+      }
+      .upToDiTime li{
+        line-height: 25px;
+        width: 45%;
+        font-size: 10px;
+        margin-top: -10px;
+        }
+        .kinstonStory li{
+          line-height: 35px;
+          width: 50%;
+          font-size: 10px;
+          margin-top: -10px;
+          }
+    
+   
+    
+    #footer{
+      background-color: #0e051d;
+      width: 100%;
+  }
+  .footerContentContainer{
+      width: 100%;
+  }
+  .footerDontMissContainer{
+      height: 100px;
+      width: 100%;
+      background-color: red;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+  }
+  .dontMiss p{
+      color: #fff;
+      text-transform: uppercase;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 25px;
+      list-style-position: 1px;
+  }
+  .stayTune p{
+      color: #000;
+      text-transform: uppercase;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 25px;
+  }
+  .footerListWrapper{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      
+  }
+  .footerFoursSectionContainer{
+      border-right: none;
+      width: 100%;
+  }
+  .fourSectionContentContainer{
+      width: 100%;
+  }
+  .footerSectionContent{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  flex-direction: column;
+  }
+  
+  .footerLogoContainer{
+      padding: 10px;
+  }
+  .footerLogoContent{
+      background-color: red;
+      height: 100px;
+      width: 230px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .footerNcb{
+      height: 90%;
+      width: 50%;
+      background-color: #f2f2f2;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .footerNcb p {
+      color: #000;
+      font-size: 25px;
+      font-weight: 900;
+      font-family: Arial, Helvetica, sans-serif;
+      text-transform: uppercase;
+  }
+  .footerMedia{
+      height: 100%;
+      width: 50%;
+      margin-left: -10px;
+      background-color: #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .footerMedia p {
+      color: #f2f2f2;
+      font-size: 25px;
+      font-weight: 900;
+      font-family: Arial, Helvetica, sans-serif;
+      text-transform: uppercase;
+  }
+  .footerdescrptioText{
+      margin-top: 10px;
+      width: 90%;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+  }
+  .footerdescrptioText p{
+      color: #999;
+      font-weight: 700;
+  
+  }
+  .footerEmail{
+      margin-top: 20px;
+      width: 90%;
+      padding: 10px;
+  }
+  .footerEmail p{
+      color: #fff;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 400;
+      letter-spacing: 1px;
+  }
+  .footerSectionHeader{
+      border-bottom: 2px solid #999;
+  }
+  .footerSectionHeader h5{
+      font-size: 20px;
+      text-transform: uppercase;
+      margin-top: 10px;
+      font-family: "poppins";
+      color: #fff;
+  }
+  .footerUlContainer{
+      margin-top: 10px;
+      padding: 10px;
+  }
+  .footerUlContentList{
+      width: 100%;
+  }
+  .footerUlContentList li{
+      list-style: none;
+      padding:10px 0px;
+  }
+  .footerUlContentList li a{
+      text-decoration: none;
+      font-size: 18px;
+      text-transform: capitalize;
+      font-weight: 350;
+      color: #999;
+  }
+  .footerFormContainer{
+      margin-top: 10px;
+      padding: 10px;
+  }
+  #form{
+      height: 100%;
+      width: 100%;
+  }
+  .joinNesLetters{
+      width: 100%;
+    
+  }
+  .joinNesLetters p{
+      font-size: 18px;
+      font-weight: 400;
+      color: #fff;
+      border-bottom: 2px solid #000;
+      font-family: Arial, Helvetica, sans-serif;
+      text-transform: capitalize;
+  
+  }
+  .joinInputForm{
+      width: 100%;
+      height: 30px;
+      margin-top: 20px;
+      border-radius: 5px;
+  }
+  .joinInputForm input{
+      border-radius: 5px;
+      width: 100%;
+      height: 100%;
+      outline: none;
+      border: none;
+  }
+  .footerSocialMedia{
+      margin-top: 20px;
+      width: 100%;
+      padding: 10px;
+  }
+  .socialMediaText{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .socialMediaText p{
+      font-size: 20px;
+      font-weight: 650;
+      border-bottom: 1px solid #fff;
+      font-family: "poppins";
+      text-transform: capitalize;
+      color: #fff;
+      font-size: 16px;
+  }
+  .iconsContainer{
+      display: flex;
+      padding: 10px;
+      justify-content: center;
+      margin-top: 20px;
+  }
+  .icon{
+      width: 100%;
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .icon a i{
+      font-size: 40px;
+      font-weight: 200;
+      color: #fff;
+  }
+  
+  .lastFooterContent{
+      background-color: #09002a;
+      height: 10dvh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .lastFooterContent p{
+      color: #999;
+      font-size: 11px;
+      font-weight: 900;
+      
+  }
+  .lastFooterContent p a{
+      font-family: serif;
+     color: blue;
+      
+  }
+    
+  }
+  @media (max-width: 393px) {
+    
+  
+  .navLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    height: 100%;
+    padding: 0px 20px;
+    order: 3;
+  }
+  .navlinkListContainer{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 1, 1, 0.63)), url(images/background.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid rgba(229, 225, 225, 0.39);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    top: 10dvh;
+    height: 90dvh;
+    justify-content: center;
+    transform: translateX(100%);
+    transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+  }
+  .navlinkListContainer-checked {
+    transform: translateX(0);
+  }
+  .navLinkList{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .navMenuContainer{
+    user-select: none;
+    outline: none;
+    cursor: pointer;
+    background: linear-gradient(rgba(78, 75, 75, 0.3), rgba(107, 95, 95, 0.3));
+    border: 2px solid rgba(229, 225, 225, 0.39);
+    display: flex;  
+    order: 1;
+    transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+  }
+  .navMenuContainer div{
+    height: 2px;
+    width: 40px;
+    transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+    color: #000;
+    background-color: #fff;
+    margin: 5px;
+  }
+  @keyframes navLink {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  .toggle .nabMenuButton1 {
+    transform: rotate(45deg) translate(5px, 12px);
+  }
+  .toggle .nabMenuButton2 {
+    opacity: 0;
+  }
+  .toggle .nabMenuButton3 {
+    transform: rotate(-45deg) translate(5px, -12px);
+  }
+  
+  .ncbTetContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    height: 90%;
+    padding: 10px;
+  }
+  .ncbTetContainer label{
+    color: #000;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+  .mediaText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    height: 100%;
+    padding: 0px 10px;
+  
+  }
+  .mediaText strong{
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 0;
+  }
+  
+  .newsLetterButton button{
+    font-size: 8px;
+    padding: 10px 0px;
+    font-weight: 900;
+    transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+   
+  }
+  .navMenuContainer{
+    height: 80%;
+    width: 50px;
+    background: linear-gradient(rgba(78, 75, 75, 0.3), rgba(107, 95, 95, 0.3));
+  border: 2px solid rgba(229, 225, 225, 0.39);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    order: 1;
+    justify-content: center;
+     
+  }
+  .navMenuContainer div{
+    height: 2px;
+    width: 30px;
+    color: #000;
+    background-color: #fff;
+    margin: 5px;
+  }
+  .newsLetterForm{
+    transition: all 0.6s cubic-bezier(0.68, -0.55, -0.265, 1.55);
+     width: 100%;
+     max-width: 90%;
+     right: 40px;
+     margin-top: 20px;
+     position: absolute;
+     padding: 10px;
+     pointer-events: none;
+     opacity: 0;
+  }
+  .newsLetterIcons i{
+    background-color: #000fff;
+    border-radius: 50%;
+  }
+    #headerProfile{
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 0;
+        z-index: 1;
+        height: 90dvh;
+        background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(3, 3, 4, 0.755));
+        margin-top: 70px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .headerProfileContentContainer{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .nusicianProfilePicContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 20px;
+        width: 100%;
+    }
+    .muscianProfilePic{
+        height: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6px;
+        width: 250px;
+        
+    }
+    .muscianProfilePic img{
+        width: 100%;
+        border-radius: 6px;
+      padding: 10px;
+        border: 10px solid rgba(229, 225, 225, 0.39);
+        height: 100%;
+      
+        object-fit: cover;
+    }
+    .musicianProfileDetailsContainer{
+        width: 90%;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .musicianName{
+        padding: 10px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     
+       
+    }
+    .musicianName p{
+        color: #fff;
+        font-size: 30px;
+        font-family: "poppins";
+        font-weight: 600;
+    }
+    .subDetainsContainer{
+        display: flex;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        gap: 0px;
+    }
+    .musicianContryFlag{
+        height: 20px;
+        width: 80px;
+    }
+    .musicianContryFlag img {
+        width: 100%;
+        border: 2px solid #dff;
+        height: 100%;
+        
+    }
+    .musicianLocation{
+        padding-left: 10px;
+        width: 50%;
+    }
+    .musicianLocation p {
+        color: #fff;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    .musicianCategories{
+        padding-left: 10px;
+        width: 100%;
+    }
+    .musicianCategories ul li{
+        color: #fff;
+        font-size: 12px;
+        font-family: "poppins", sans-serif;
+        list-style-type: disc;
+        font-weight: 300;
+    }
+    #section{
+      width: 100%;
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+    .sectionMainContainer{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .sectionAlbumDividerContainer{
+      width: 100%;
+      flex-wrap: wrap;
+      border: 1px solid #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .sectionAlbumHeaderContainer{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    .sectionAlbumHeaderContainer h1{
+      font-family: "poppins", sans-serif;
+      font-size: 22px;
+      border-bottom: 1px solid #333;
+      letter-spacing: 1px;
+    }
+    .sectionAlbumContentContainer{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .sectionAlbumContent{
+      width: 100%;
+      height: 350px;
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid #333;
+      border-radius: 10px;
+    }
+    .firstOfTheWeek{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.799)), url(images/firstoftheweek.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+    
+    }
+    .numb{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/numb.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+    
+    }
+    .partyWithMe{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/partywithme.jpeg) no-repeat;
+      background-position: center;
+      background-size: cover;
+    
+    }
+    .fireVybz{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/fireVybz.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .lighter{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/lighter.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .forever{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/KartelForeverTrilogy.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 500px;
+    }
+    .upToDiTime{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/Up2DiTime.webp) no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .kinstonStory{
+      background:linear-gradient(rgba(10, 3, 130, 0.799),rgba(21, 2, 67, 0.599)), url(images/KingstonStory.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .sectionAlbumNameHeader{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .sectionAlbumNameHeader h2{
+      font-family: "poppins", sans-serif;
+      font-size: 12px;
+      color: #e9e9e9;
+      text-transform: capitalize;
+      letter-spacing: 1px;
+    }
+    .sectionAlbumTracksNameContainer{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .sectionAlbumName{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+    .sectionAlbumNameResponsive{
+      display: flex;
+      align-items: center;
+      width: 90%;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    
+    }
+    .sectionAlbumName li{
+     width: 100%;
+      display: flex;
+      line-height: 30px;
+      color: #f2f2f2;
+      font-weight: 500;
+      font-size: 14px;
+      justify-content: space-between;
+      text-transform: capitalize;
+      align-items: center;
+    }
+    .kingOf li{
+      line-height: 20px;
+    }
+    .ponDi li{
+      line-height: 20px;
+      font-size: 11px;
+    }
+    .GazaRever li{
+      line-height: 22px;
+      width: 40%;
+      font-size: 8px;
+      margin-top: -10px;
+      }
+    .upToDiTime li{
+      line-height: 25px;
+      width: 50%;
+      font-size: 10px;
+      margin-top: -10px;
+      }
+      .kinstonStory li{
+        line-height: 35px;
+        width: 50%;
+        font-size: 10px;
+        margin-top: -10px;
+        }
+    #footer{
+        background-color: #0e051d;
+        width: 100%;
+    }
+    .footerContentContainer{
+        width: 100%;
+    }
+    .footerDontMissContainer{
+        height: 100px;
+        width: 100%;
+        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .dontMiss p{
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 25px;
+        list-style-position: 1px;
+    }
+    .stayTune p{
+        color: #000;
+        text-transform: uppercase;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 25px;
+    }
+    .footerListWrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        
+    }
+    .footerFoursSectionContainer{
+        border-right: none;
+        width: 100%;
+    }
+    .fourSectionContentContainer{
+        width: 100%;
+    }
+    .footerSectionContent{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    flex-direction: column;
+  }
+    
+    .footerLogoContainer{
+        padding: 10px;
+    }
+    .footerLogoContent{
+        background-color: red;
+        height: 100px;
+        width: 230px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footerNcb{
+        height: 90%;
+        width: 50%;
+        background-color: #f2f2f2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footerNcb p {
+        color: #000;
+        font-size: 25px;
+        font-weight: 900;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+    }
+    .footerMedia{
+        height: 100%;
+        width: 50%;
+        margin-left: -10px;
+        background-color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footerMedia p {
+        color: #f2f2f2;
+        font-size: 25px;
+        font-weight: 900;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+    }
+    .footerdescrptioText{
+        margin-top: 10px;
+        width: 90%;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    .footerdescrptioText p{
+        color: #999;
+        font-weight: 700;
+    
+    }
+    .footerEmail{
+        margin-top: 20px;
+        width: 90%;
+        padding: 10px;
+    }
+    .footerEmail p{
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+    .footerSectionHeader{
+        border-bottom: 2px solid #999;
+    }
+    .footerSectionHeader h5{
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-top: 10px;
+        font-family: "poppins";
+        color: #fff;
+    }
+    .footerUlContainer{
+        margin-top: 10px;
+        padding: 10px;
+    }
+    .footerUlContentList{
+        width: 100%;
+    }
+    .footerUlContentList li{
+        list-style: none;
+        padding:10px 0px;
+    }
+    .footerUlContentList li a{
+        text-decoration: none;
+        font-size: 18px;
+        text-transform: capitalize;
+        font-weight: 350;
+        color: #999;
+    }
+    .footerFormContainer{
+        margin-top: 10px;
+        padding: 10px;
+    }
+    #form{
+        height: 100%;
+        width: 100%;
+    }
+    .joinNesLetters{
+        width: 100%;
+      
+    }
+    .joinNesLetters p{
+        font-size: 18px;
+        font-weight: 400;
+        color: #fff;
+        border-bottom: 2px solid #000;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: capitalize;
+    
+    }
+    .joinInputForm{
+        width: 100%;
+        height: 30px;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    .joinInputForm input{
+        border-radius: 5px;
+        width: 100%;
+        height: 100%;
+        outline: none;
+        border: none;
+    }
+    .footerSocialMedia{
+        margin-top: 20px;
+        width: 100%;
+        padding: 10px;
+    }
+    .socialMediaText{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .socialMediaText p{
+        font-size: 20px;
+        font-weight: 650;
+        border-bottom: 1px solid #fff;
+        font-family: "poppins";
+        text-transform: capitalize;
+        color: #fff;
+        font-size: 16px;
+    }
+    .iconsContainer{
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .icon{
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon a i{
+        font-size: 40px;
+        font-weight: 200;
+        color: #fff;
+    }
+   
+    
+    .lastFooterContent{
+        background-color: #09002a;
+        height: 10dvh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .lastFooterContent p{
+        color: #999;
+        font-size: 8px;
+        font-weight: 900;
+        
+    }
+    .lastFooterContent p a{
+        font-family: serif;
+        font-weight: 900;
+       color: rgb(252, 252, 252);
+        
+    }
+    
+  }
